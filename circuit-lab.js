@@ -14,6 +14,8 @@
     return {nodes:[['n0','0',180,480],['n1','A',180,160],['n2','B',740,160],['n3','C',740,480]].map(([id,name,x,y])=>({id,name,x,y})),parts:[part('V1','V','n1','n0',12),part('R1','R','n1','n2',1000),part('R2','R','n2','n3',2000),part('W1','W','n3','n0')],ground:'n0'};
   }
   let circuit=example('divider'),tool='select',pending=null,selected={kind:'node',id:'n2'},result,drag=null,suppressClick=false;
+  const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
+  let flow,flowShown=true,flowPlaying=!reducedMotion.matches,flowSpeed=1,flowTime=0,flowFrame=null,flowLast=null,flowPaths=[];
   try{const data=JSON.parse(localStorage.getItem(key));if(data){CircuitSolver.validate(data);circuit=data;selected=null;}}catch{$('save-state').textContent='Using the example circuit';}
   const node=id=>circuit.nodes.find(n=>n.id===id),name=id=>node(id)?.name||'?';
   const newId=(kind,items)=>{let i=1;while(items.some(x=>x.id===kind+i))i++;return kind+i;};
@@ -47,7 +49,8 @@
     if(p.kind==='S')body=`<circle class="part-body" cx="${x1}" cy="${y1}" r="4"/><circle class="part-body" cx="${x2}" cy="${y2}" r="4"/><path class="part-wire" d="M${x1} ${y1}L${x2+(p.closed?0:nx*25)} ${y2+(p.closed?0:ny*25)}"/>`;
     const value=p.kind==='R'?q(p.value,'Ω'):p.kind==='V'?q(p.value,'V'):p.kind==='I'?q(p.value,'A'):p.kind==='S'?(p.closed?'closed':'open'):'';
     const arrow=p.kind==='W'?'':Circuits.draw.vector(cx-ux*23-nx*43,cy-uy*23-ny*43,cx+ux*23-nx*43,cy+uy*23-ny*43,'#78934d',2);
-    return `<g class="part-group ${chosen?'selected':''}" data-part="${p.id}" tabindex="0" role="button" aria-label="${esc(p.id+' '+types[p.kind]+' '+value+' from '+name(p.a)+' to '+name(p.b))}"><path class="part-hit" d="${hit}"/><path class="part-wire" d="${lead}"/>${body}${arrow}${p.kind==='W'?'':`<g data-label-part="${p.id}"><text x="0" y="0">${esc(p.id+(value?' · '+value:''))}</text>${result?.ok&&p.kind!=='W'?`<text class="label-small" x="0" y="23">${esc(compact(result.branches[p.id].current,'A'))}</text>`:''}</g>`}</g>`;
+    const motion=flow?.branches[p.id],dots=flowShown&&motion?.direction?`<path class="flow-dots" data-flow-part="${p.id}" data-direction="${motion.direction}" data-ratio="${motion.ratio}" d="M${a.x} ${a.y}L${x1} ${y1}L${x2} ${y2}L${b.x} ${b.y}" aria-hidden="true"/>`:'';
+    return `<g class="part-group ${chosen?'selected':''}" data-part="${p.id}" tabindex="0" role="button" aria-label="${esc(p.id+' '+types[p.kind]+' '+value+' from '+name(p.a)+' to '+name(p.b))}"><path class="part-hit" d="${hit}"/><path class="part-wire" d="${lead}"/>${p.kind==='W'?body:''}${dots}${p.kind==='W'?'':body}${arrow}${p.kind==='W'?'':`<g data-label-part="${p.id}"><text x="0" y="0">${esc(p.id+(value?' · '+value:''))}</text>${result?.ok&&p.kind!=='W'?`<text class="label-small" x="0" y="23">${esc(compact(result.branches[p.id].current,'A'))}</text>`:''}</g>`}</g>`;
   }
   function layoutLabels(){
     const occupied=[],shapes=circuit.nodes.map(n=>({x:n.x-15,y:n.y-15,width:30,height:30})),lines=[];
@@ -87,8 +90,33 @@
       const ground=n.id===circuit.ground;return `<g class="junction ${selected?.kind==='node'&&selected.id===n.id?'selected':''} ${pending===n.id?'pending':''}" data-node="${n.id}" tabindex="0" role="button" aria-label="Junction ${esc(n.name)}${ground?', ground':''}${result?.ok?', '+q(result.voltages[n.id],'V'):''}"><circle cx="${n.x}" cy="${n.y}" r="8"/><g data-label-node="${n.id}"><text x="0" y="0">${esc(n.name)}</text>${result?.ok?`<text class="label-small" x="0" y="23">${esc(compact(result.voltages[n.id],'V'))}</text>`:''}</g>${ground?`<path class="ground" d="M${n.x} ${n.y+10}v21m-17 0h34m-28 7h22m-16 7h10"/>`:''}</g>`;
     }).join('');
     layoutLabels();
+    refreshFlow();
   }
 
+  function paintFlow(){
+    for(const el of flowPaths)el.style.strokeDashoffset=String(CircuitFlow.offset(flow.branches[el.dataset.flowPart],flowTime)%40);
+  }
+  function animateFlow(now){
+    flowFrame=null;
+    if(!flowShown||!flowPlaying||!flow?.active||document.hidden){flowLast=null;return;}
+    if(flowLast!==null)flowTime+=Math.min((now-flowLast)/1000,.1)*flowSpeed;
+    flowLast=now;paintFlow();flowFrame=requestAnimationFrame(animateFlow);
+  }
+  function refreshFlow(){
+    if(flowFrame!==null)cancelAnimationFrame(flowFrame);flowFrame=null;flowLast=null;
+    flowPaths=[...$('canvas').querySelectorAll('[data-flow-part]')];paintFlow();
+    $('flow-play').textContent=flowPlaying?'Pause':'Play';
+    $('flow-play').disabled=!flowShown||!flow?.active;$('flow-speed').disabled=!flowShown;
+    $('flow-state').textContent=!flowShown?'Hidden':!flow?.ok?'Waiting for a solved circuit':!flow.active?'No current flows':flowPlaying?'Conventional current':'Paused';
+    if(flowShown&&flowPlaying&&flow?.active&&!document.hidden)flowFrame=requestAnimationFrame(animateFlow);
+  }
+  function junctionFlow(n){
+    if(!flow?.ok)return '';
+    const f=flow.nodes[n.id];
+    if(!f.incoming.length&&!f.outgoing.length)return '<section class="junction-flow"><h3>Current at this junction</h3><p>No current flows here.</p></section>';
+    const list=items=>items.map(b=>`<li><button type="button" data-inspect-part="${b.id}">${esc(b.id)}</button><span>${esc(q(b.magnitude,'A'))}<small>${esc(name(b.from)+' → '+name(b.to))}</small></span></li>`).join('')||'<li>None</li>';
+    return `<section class="junction-flow"><h3>Current at this junction</h3><div class="flow-balance"><div><h4>In · ${esc(q(f.totalIn,'A'))}</h4><ul>${list(f.incoming)}</ul></div><div><h4>Out · ${esc(q(f.totalOut,'A'))}</h4><ul>${list(f.outgoing)}</ul></div></div><p>Σ I in = Σ I out</p></section>`;
+  }
   function equationBlock(title,text){return `<div class="formula"><strong>${esc(title)}</strong>${esc(text)}</div>`;}
   function constraint(p){return `V_${name(p.a)} − V_${name(p.b)} = ${num(p.kind==='V'?p.value:0)} V`;}
   function nodeEquation(id){const terms=CircuitSolver.nodeTerms(circuit,id);return (terms.map(t=>t.term).join(' + ').replaceAll('+ −','− ')||'0')+' = 0';}
@@ -127,7 +155,7 @@
     const target=selected?.kind==='node'?node(selected.id):circuit.parts.find(p=>p.id===selected?.id);
     if(!target){selected=null;$('inspector').innerHTML='<h2>Explore the circuit</h2><p class="selection-hint">Click a junction to see its voltage and current-balance equation. Click a component to change its value and inspect its current, voltage and power.</p><h3>Build your own</h3><p>Add junctions, then choose a component and click its two endpoints. Drag junctions with Select / move. Set one junction as Ground.</p><div class="node-list">'+circuit.nodes.map(n=>`<button data-inspect-node="${n.id}">${esc(n.name)}</button>`).join('')+'</div>';return;}
     if(selected.kind==='node'){
-      $('inspector').innerHTML=`<h2>Junction ${esc(target.name)}</h2>${result.ok?'<p class="metric">'+esc(q(result.voltages[target.id],'V'))+'</p>':''}<form id="node-edit"><div class="edit-fields"><label class="full">Junction name<input id="node-name" value="${esc(target.name)}" maxlength="12" required pattern="[a-zA-Z0-9_-]+"></label></div><div class="edit-actions"><button class="primary" type="submit">Rename</button><button type="button" id="set-ground" ${target.id===circuit.ground?'disabled':''}>Set ground</button><button type="button" class="danger" id="delete-node">Delete junction</button></div><p id="edit-error" class="small-error" role="status"></p></form>${calculationsNode(target)}`;
+      $('inspector').innerHTML=`<h2>Junction ${esc(target.name)}</h2>${result.ok?'<p class="metric">'+esc(q(result.voltages[target.id],'V'))+'</p>':''}<form id="node-edit"><div class="edit-fields"><label class="full">Junction name<input id="node-name" value="${esc(target.name)}" maxlength="12" required pattern="[a-zA-Z0-9_-]+"></label></div><div class="edit-actions"><button class="primary" type="submit">Rename</button><button type="button" id="set-ground" ${target.id===circuit.ground?'disabled':''}>Set ground</button><button type="button" class="danger" id="delete-node">Delete junction</button></div><p id="edit-error" class="small-error" role="status"></p></form>${junctionFlow(target)}${calculationsNode(target)}`;
       $('node-edit').onsubmit=e=>{e.preventDefault();const v=$('node-name').value;if(circuit.nodes.some(n=>n.id!==target.id&&n.name===v)){$('edit-error').textContent='Choose a unique junction name.';return;}change(()=>target.name=v);};
       $('set-ground').onclick=()=>change(()=>circuit.ground=target.id);
       $('delete-node').onclick=()=>change(()=>{circuit.nodes=circuit.nodes.filter(n=>n.id!==target.id);circuit.parts=circuit.parts.filter(p=>p.a!==target.id&&p.b!==target.id);if(circuit.ground===target.id)circuit.ground=null;selected=null;});
@@ -139,14 +167,14 @@
       $('delete-part').onclick=()=>change(()=>{circuit.parts=circuit.parts.filter(x=>x.id!==p.id);selected=null;});
     }
   }
-  function rSummary(p){if(!result.ok)return '<p>Resolve the circuit issue to calculate this component.</p>';const r=result.branches[p.id];return `<p class="metric">${esc(q(r.current,'A'))}</p><p>${esc(q(r.voltage,'V'))} across ${esc(name(p.a)+' → '+name(p.b))} · ${esc(q(r.power,'W'))}</p>`;}
+  function rSummary(p){if(!result.ok)return '<p>Resolve the circuit issue to calculate this component.</p>';const r=result.branches[p.id],f=flow.branches[p.id];return `<p class="metric">${esc(q(r.current,'A'))}</p><p>${esc(q(r.voltage,'V'))} across ${esc(name(p.a)+' → '+name(p.b))} · ${esc(q(r.power,'W'))}</p><p class="actual-flow">${f.direction?'Conventional current: '+esc(name(f.from)+' → '+name(f.to)):'No current flows.'}</p>`;}
   function results(){
     $('solve-status').className=result.ok?'':'invalid';$('solve-status').textContent=result.ok?'Solved · Click any junction or component to see its calculations.':result.message;
     $('equations').innerHTML=(circuit.ground?equationBlock('Ground reference','V_'+name(circuit.ground)+' = 0 V'):'')+circuit.nodes.map(n=>equationBlock(n.name+(n.id===circuit.ground?' · ground':''),nodeEquation(n.id))).join('')+circuit.parts.filter(p=>p.kind==='V'||p.kind==='W'||p.kind==='S'&&p.closed).map(p=>equationBlock(p.id,constraint(p))).join('')+circuit.parts.filter(p=>p.kind==='I').map(p=>equationBlock(p.id,'I_'+p.id+' = '+q(p.value,'A'))).join('');
     if(!result.ok){$('results').innerHTML='<p class="result-notice">'+esc(result.message)+'</p>';return;}
     $('results').innerHTML=`<div class="result-tables"><div class="table-scroll"><table><caption>Junction voltages</caption><thead><tr><th>Junction</th><th>Voltage</th></tr></thead><tbody>${circuit.nodes.map(n=>`<tr><td><button data-inspect-node="${n.id}">${esc(n.name)}${n.id===circuit.ground?' (ground)':''}</button></td><td>${esc(q(result.voltages[n.id],'V'))}</td></tr>`).join('')}</tbody></table></div><div class="table-scroll"><table><caption>Component values</caption><thead><tr><th>Component</th><th>Direction</th><th>Voltage</th><th>Current</th><th>Power</th></tr></thead><tbody>${circuit.parts.map(p=>{const r=result.branches[p.id];return `<tr><td><button data-inspect-part="${p.id}">${esc(p.id)}</button></td><td>${esc(name(p.a)+' → '+name(p.b))}</td><td>${esc(q(r.voltage,'V'))}</td><td>${esc(q(r.current,'A'))}</td><td>${esc(q(r.power,'W'))}</td></tr>`;}).join('')}</tbody></table></div></div>`;
   }
-  function render(){result=CircuitSolver.solve(circuit);$('undo').disabled=!undo.length;$('redo').disabled=!redo.length;help();draw();inspector();results();}
+  function render(){result=CircuitSolver.solve(circuit);flow=CircuitFlow.analyze(circuit,result);$('undo').disabled=!undo.length;$('redo').disabled=!redo.length;help();draw();inspector();results();}
   function pick(kind,id){selected={kind,id};draw();inspector();if(innerWidth<1150)$('inspector').scrollIntoView({block:'start',behavior:'smooth'});}
   function addNode(x,y){
     if(circuit.nodes.length>=24){$('tool-help').textContent='Maximum 24 junctions. Remove an unused junction first.';return null;}
@@ -194,5 +222,10 @@
   $('redo').onclick=()=>{if(!redo.length)return;undo.push(clone(circuit));circuit=redo.pop();pending=null;selected=null;save();render();};
   $('export').onclick=()=>{const blob=new Blob([JSON.stringify(circuit,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='my-dc-circuit.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
   $('import').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>100000)throw Error('Choose a circuit JSON file smaller than 100 KB.');const next=JSON.parse(await file.text());CircuitSolver.validate(next);if(next.nodes.some(n=>n.x<60||n.x>920||n.y<60||n.y>560))throw Error('Junctions must fit inside the circuit canvas.');change(()=>{circuit=next;selected=null;pending=null;});setTool('select');}catch(error){$('tool-help').textContent='Could not open circuit: '+error.message;}e.target.value='';};
+  $('show-flow').onchange=e=>{flowShown=e.target.checked;draw();};
+  $('flow-play').onclick=()=>{flowPlaying=!flowPlaying;refreshFlow();};
+  $('flow-speed').oninput=e=>{flowSpeed=Number(e.target.value);$('flow-speed-value').textContent=flowSpeed+'×';};
+  document.addEventListener('visibilitychange',refreshFlow);
+  reducedMotion.addEventListener('change',e=>{if(e.matches){flowPlaying=false;refreshFlow();}});
   render();
 })();

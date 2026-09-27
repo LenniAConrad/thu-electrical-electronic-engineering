@@ -16,7 +16,7 @@ with sync_playwright() as p:
   page.locator(f'[data-tool="{kind}"]').click();node(a);node(z)
  def load(name):page.locator('#example').select_option(name);page.locator('#load-example').click()
  def solved():assert page.locator('#solve-status').inner_text().startswith('Solved'),page.locator('#solve-status').inner_text()
- def selectpart(id):page.locator(f'[data-inspect-part="{id}"]').click()
+ def selectpart(id):page.locator(f'#results [data-inspect-part="{id}"]').click()
  def labels():
   issues=page.locator('#canvas').evaluate('''s=>{
     const els=[...s.querySelectorAll('[data-label-node],[data-label-part]')],bounds=s.getBoundingClientRect(),problems=[];

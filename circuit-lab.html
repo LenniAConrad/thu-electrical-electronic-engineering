@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Circuit playground · THU EEE</title>
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="circuit-lab.css">
-  <script defer src="circuits.js"></script><script defer src="circuit-solver.js"></script><script defer src="circuit-lab.js"></script>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="circuit-lab.css?v=current-flow">
+  <script defer src="circuits.js"></script><script defer src="circuit-solver.js"></script><script defer src="circuit-flow.js"></script><script defer src="circuit-lab.js?v=current-flow"></script>
 </head>
 <body>
   <header class="lab-header"><a href="index.html">← Homework</a><div><h1>Circuit playground</h1><p>10220074 · Luo Haiyun · Linear DC circuits</p></div><span id="save-state">Saved on this browser</span></header>
@@ -14,9 +14,10 @@
       <section class="canvas-card" aria-label="Circuit editor">
         <div class="tools" role="group" aria-label="Drawing tools"><button data-tool="select" aria-pressed="true">Select / move</button><button data-tool="node">Junction</button><button data-tool="R">Resistor</button><button data-tool="V">Voltage source</button><button data-tool="I">Current source</button><button data-tool="W">Wire</button><button data-tool="S">Switch</button><button data-tool="ground">Ground</button></div>
         <p id="tool-help">Click a junction or component to inspect it. Drag junctions to rearrange the circuit.</p>
+        <div class="flow-controls" aria-label="Current flow controls"><label class="flow-toggle"><input id="show-flow" type="checkbox" checked><span class="flow-dot-key" aria-hidden="true"></span>Current flow</label><button id="flow-play" type="button">Pause</button><label class="flow-speed">Speed<input id="flow-speed" type="range" min="0.25" max="3" step="0.25" value="1"><output id="flow-speed-value" for="flow-speed">1×</output></label><span id="flow-state" role="status" aria-live="polite"></span></div>
         <div class="canvas-scroll"><svg id="canvas" viewBox="0 0 1000 640" aria-label="Editable circuit" xmlns="http://www.w3.org/2000/svg"><title>Circuit playground</title></svg></div>
         <div id="solve-status" role="status" aria-live="polite"></div>
-        <p class="canvas-note">Arrows define positive current. Source + is at the first terminal. Crossing lines are not connected.</p>
+        <p class="canvas-note">Amber dots show conventional current; speed compares current magnitudes within the circuit, not physical speed. Green arrows define positive current, so dots can move against them. Crossing lines are not connected.</p>
       </section>
       <aside id="inspector" aria-label="Selection and calculations"></aside>
     </div>

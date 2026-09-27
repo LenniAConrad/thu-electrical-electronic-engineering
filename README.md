@@ -44,11 +44,15 @@ Run `node test-checker.cjs` for checker and coverage checks, and `node test-mode
 
 Resistors, independent ideal voltage/current sources, wires and open/closed switches are supported. The first junction on a blank canvas is the ground reference; **Ground** changes it. Current is positive from the first terminal to the second; voltage-source positive polarity is at the first terminal. Results include every node voltage, branch voltage/current, and absorbed/supplied power. Click a junction to see KCL, its rearrangement and numerical substitution; click a component for Ohm's law, source constraints and power calculations. The complete coupled equations are available below the results. The solver uses [modified nodal analysis](https://qucs.sourceforge.net/tech/node14.html), with equilibrated elimination and residual checks.
 
+**Current flow** overlays moving amber dots in the calculated conventional-current direction, including through wires and sources. Speed is proportional to current magnitude within the current circuit and is illustrative rather than physical drift speed. Negative branch currents move opposite their green reference arrows. Open/zero-current branches and invalid circuits do not animate; scaled round-off is suppressed. Pause/play, hide/show and a speed slider control the overlay. Reduced-motion preferences start it paused, and hidden tabs stop animating. Junction inspection lists incoming and outgoing currents and their totals; component inspection names the actual flow direction.
+
 This is a DC tool, without AC/transient or semiconductor models. Floating networks, contradictory ideal sources and indeterminate ideal-source/wire loops are reported instead of displaying a solution. Up to 24 junctions and 48 components are supported. Resistors range from 1 µΩ to 1 GΩ; source limits are ±1 MV and ±1 kA. Extremely ill-conditioned networks may be rejected. Display values are rounded; calculations retain full floating-point precision.
 
 The editor autosaves separately from homework progress. **Save circuit / Open circuit** exports and imports JSON circuit files; **Undo / Redo** also reverses example loads and deletions. It runs offline without sending the circuit anywhere.
 
 Run `node test-circuit-solver.cjs` for independent prescribed-voltage networks, source polarity, supernodes, bridge balance, switches, wires, grounding, extreme resistances, KCL/power conservation and invalid networks. Run `python test-circuit-lab.py` with the local server to verify building/editing, equations, dragging, wire splitting, undo/redo, saving/loading, persistence, readable labels, mobile layouts and offline use. The solver test also runs before deployment.
+
+`node test-circuit-flow.cjs` checks current direction, reference reversals, relative speed, junction balance and zero/open/invalid circuits. `python test-current-flow.py` verifies actual animation movement and speed ratios, controls, source changes, current splitting, reduced motion, mobile layout and offline use. The flow-model test also runs before deployment.
 
 ## Publishing
 
