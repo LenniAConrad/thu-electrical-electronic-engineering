@@ -10,7 +10,7 @@ Open `index.html` directly in a browser, or run `./start.sh` and visit http://lo
 
 **Official homework** keeps the official values. **Random practice** creates repeatable variations with tidy component values and the same solving procedure; **New numbers** starts another variation. Each mode saves its own progress and drafts. Random exercise links include the seed so the same numbers can be revisited.
 
-**Step by step** adds intermediate calculations, source conversions, source-deactivation diagrams, and equivalent circuits. **Just the answer** checks the final results directly. Numbered inputs on the large diagrams stay synchronized with the answer form. **Given circuit** shows the starting circuit during an intermediate step. Diagrams use the full content width, can be enlarged, and scroll within their card on narrow screens so labels remain legible.
+**Step by step** adds intermediate calculations, source conversions, source-deactivation diagrams, and equivalent circuits. **Just the answer** checks the final results directly. Answer inputs beside or below each diagram stay synchronized with the answer form. Focusing an input highlights its circuit location without covering labels or symbols. **Given circuit** shows the starting circuit during an intermediate step. Diagrams use the full content width, can be enlarged, and scroll within their card on narrow screens so labels remain legible.
 
 25 cards cover all 19 original questions. The four subparts of 1.5 and 1.6 are separate cards. Source conversions check magnitude, polarity/direction, resistance, and the reason an ideal source cannot be converted. 1.18 checks five independent branch equations. 2.1 draws the phasors from the entered RMS values and angles. 2.2 builds the three sine-form instantaneous expressions.
 
@@ -57,3 +57,5 @@ The overview and homework selector come from `Course.sets()` in `course.js`. Hom
 The fixed coverage counts in the current tests intentionally require updating when a reviewed homework set is added. The independent review must explicitly cover every new exercise family.
 
 The homework material belongs to its respective authors. This is an independent study tool, not an official Tsinghua University website.
+
+`python test-visuals.py` checks 938 official/random diagram states for overlapping labels, arrowheads, and clipped text. It also checks six viewport widths, focus highlights, the enlarged mobile diagram, and coincident phasors. Diagram text stays at its native readable size; narrow screens scroll the drawing while keeping answer inputs visible.

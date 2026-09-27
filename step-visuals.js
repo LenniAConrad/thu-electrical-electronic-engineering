@@ -30,7 +30,7 @@ const StepVisuals=(()=>{
   }
   function power(q,off){
     const p=q.params;let b=L(85,70,360,70)+L(85,290,560,290)+R(235,70,235,180,`R₁ = ${p.r1} kΩ`,-27)+R(360,70,360,290,`R₂ = ${p.r1} kΩ`,25)+R(360,70,560,70,`R₃ = ${p.r3} kΩ`,-26)+D(560,70,true)+D(560,290,true)+T(580,77,'a')+T(580,297,'b');
-    b+=off?open(85,70,290)+L(235,180,235,290):S(85,290,85,70,p.is+' mA','i',-1)+S(235,180,235,290,p.v+' V','v',-1);
+    b+=off?open(85,70,290)+L(235,180,235,290):S(85,290,85,70,p.is+' mA','i',1)+S(235,180,235,290,p.v+' V','v',-1);
     return SVG(b,off?'Current source opened, voltage source shorted, load removed':'Load removed for open-circuit voltage',680,365);
   }
   function bridge(q,off){
@@ -53,9 +53,17 @@ const StepVisuals=(()=>{
   function phasors(q,draft){
     // One shared scale preserves the ratio of the two RMS magnitudes.
     const mags=[read(draft,'rms1'),read(draft,'rms2')],ph=[read(draft,'phase1'),read(draft,'phase2')];
-    const scale=155/Math.max(1,...mags.filter(Number.isFinite));let b=L(80,210,610,210,'axis')+L(335,395,335,30,'axis')+T(610,236,'Re')+T(361,34,'Im')+T(317,232,'0');
-    [0,1].forEach(i=>{if(!Number.isFinite(mags[i])||!Number.isFinite(ph[i])||mags[i]<0)return;const angle=ph[i]*Math.PI/180,x=335+scale*mags[i]*Math.cos(angle),y=210-scale*mags[i]*Math.sin(angle),color=i?'#bd8246':'#287951';b+=`<path d="M335 210L${x} ${y}" stroke="${color}" stroke-width="4"/><path d="M${x} ${y}l-12 -6v12z" fill="${color}" transform="rotate(${-ph[i]} ${x} ${y})"/>`+T(x+24,y-12,'I'+(i?'₂':'₁'),'label-bg');});
-    return SVG(b,'Phasors constructed from your entered RMS magnitudes and phases',680,430);
+    const scale=145/Math.max(1,...mags.filter(Number.isFinite));let b=L(70,250,610,250,'axis')+L(335,415,335,80,'axis')+T(615,279,'Re')+T(365,91,'Im')+T(315,278,'0');
+    const valid=i=>Number.isFinite(mags[i])&&Number.isFinite(ph[i])&&mags[i]>=0;
+    const coincident=valid(0)&&valid(1)&&Math.abs(mags[0]-mags[1])<1e-8&&Math.abs(Math.sin((ph[0]-ph[1])*Math.PI/360))<1e-8;
+    [0,1].forEach(i=>{
+      const color=i?'#b77a35':'#287951',name=i?'I₂':'I₁',x=85+310*i;
+      b+=`<path d="M${x-25} 33h16" stroke="${color}" stroke-width="3"/>`+T(x,39,name+(valid(i)?' = '+f(mags[i])+' ∠ '+f(ph[i])+'° A':''),'phasor-key','start');
+      if(!valid(i)||(coincident&&i===1))return;
+      const angle=ph[i]*Math.PI/180;b+=Circuits.draw.vector(335,250,335+scale*mags[i]*Math.cos(angle),250-scale*mags[i]*Math.sin(angle),color,3);
+    });
+    if(coincident)b+=T(340,450,'I₁ = I₂ · coincident phasors','small');
+    return SVG(b,'RMS phasors: I1 green, I2 amber; coincident phasors share one arrow',680,475);
   }
   function wave(q,draft,suffix,given=false){
     let b='',max=1,curves=[];const p=q.params;
@@ -64,7 +72,7 @@ const StepVisuals=(()=>{
     max=Math.max(1,...curves.map(c=>c.a));const end=1/(p.f||50),cy=220;
     b+=L(75,cy,620,cy,'axis')+L(75,65,75,375,'axis')+T(650,cy-12,'t')+T(75,cy+30,'0')+T(350,cy+30,f(end*500)+' ms')+T(610,cy+30,f(end*1000)+' ms')+L(75,90,615,90,'axis dashed')+L(75,350,615,350,'axis dashed');
     if(!given&&!curves.length)b+=T(350,130,'Enter amplitude, frequency and phase','small');
-    curves.forEach((c,i)=>{let path='';for(let k=0;k<=220;k++){const t=end*k/220,x=75+540*k/220,y=cy-130*c.a/max*Math.sin(c.w*t+c.phase*Math.PI/180);path+=(k?'L':'M')+x.toFixed(2)+' '+y.toFixed(2);}b+=`<path d="${path}" fill="none" stroke="${c.color}" stroke-width="3"/>`+T(270+i*180,35,c.name+' · peak '+f(c.a),'small');});
+    curves.forEach((c,i)=>{let path='';for(let k=0;k<=220;k++){const t=end*k/220,x=75+540*k/220,y=cy-130*c.a/max*Math.sin(c.w*t+c.phase*Math.PI/180);path+=(k?'L':'M')+x.toFixed(2)+' '+y.toFixed(2);}b+=`<path d="${path}" fill="none" stroke="${c.color}" stroke-width="3"/>`+T(given?185+i*310:340,35,c.name+' · peak '+f(c.a),'small');});
     return SVG(b,given?'The given sinusoidal currents over one period':'Waveform built from your entered amplitude, frequency and phase',680,415);
   }
   function original(q,scene){
@@ -73,10 +81,10 @@ const StepVisuals=(()=>{
       const pt=q.id==='h2-4'?(scene==='node-a'?[230,175]:[445,175]):(scene==='node-a'?[290,65]:[570,305]);
       marks=`<circle cx="${pt[0]}" cy="${pt[1]}" r="30" fill="#d8efb080" stroke="#65983d" stroke-width="3"/>`;
     }
-    if(scene==='loops')marks='<path d="M120 100V280H265V100Z M335 92L530 260V92Z M315 140V280H505Z" fill="none" stroke="#9dbb72" stroke-width="4" stroke-dasharray="9 7"/>';
+    if(scene==='loops')marks='<path d="M130 100V280H250V100Z M370 95L530 232V95Z M350 180V280H467Z" fill="#e8f0dc" stroke="#cbdab7" stroke-width="1.5" stroke-linejoin="round"/>';
     if(scene.startsWith('characteristic-')){const i=Number(scene.at(-1));marks=`<rect x="${28+170*i}" y="25" width="160" height="235" rx="10" fill="none" stroke="#80a84c" stroke-width="3"/>`;}
     if(scene==='switch-closed')diagram=diagram.replace('<path class="wire" d="M305 330L336 310"/>',L(305,335,340,335));
-    return diagram.replace('</svg>',marks+'</svg>');
+    return diagram.replace('</title>','</title>'+marks);
   }
   function scene(q,step,draft){
     const name=step?.scene||'original',p=q.params;q.scene=name;
@@ -106,14 +114,14 @@ const StepVisuals=(()=>{
     let result=scene(q,step,draft);const fields=step?.fields||q.fields;
     const pins=step?.pins?.length?step.pins:fields.filter(x=>defaults[q.id]?.[x.key]).map(x=>{const [a,b,c]=defaults[q.id][x.key];return {key:x.key,x:a,y:b,label:c}});
     const active=pins.filter(pin=>fields.some(f=>f.key===pin.key&&f.type==='number'));
-    if(!active.length)return result;
-    const vb=result.match(/viewBox="0 0 (\d+) (\d+)"/),w=Number(vb[1]),h=Number(vb[2]),boxX=w+18,height=Math.max(h,active.length*102+30),width=w+275;
-    let extra='';active.forEach((pin,i)=>{
-      const field=fields.find(f=>f.key===pin.key),y=22+i*102,state=results[pin.key],cls=state?(state.ok?'correct':'incorrect'):'';
-      extra+=`<circle cx="${pin.x}" cy="${pin.y}" r="15" fill="#d8efb090" stroke="#80a354" stroke-width="2"/><circle cx="${pin.x+18}" cy="${pin.y-19}" r="12" fill="#173e35"/>`+T(pin.x+18,pin.y-14,String(i+1),'pin-number');
-      extra+=`<foreignObject x="${boxX}" y="${y}" width="245" height="96"><div xmlns="http://www.w3.org/1999/xhtml" class="diagram-answer ${cls}"><label>${i+1} · ${esc(pin.label)} <span>${esc(field.unit||'')}</span><input data-linked="${pin.key}" aria-label="${esc(field.label)} on diagram${field.unit?' in '+esc(field.unit):''}" type="text" autocomplete="off" spellcheck="false" placeholder="?" value="${esc(draft[pin.key]||'')}" ${editable?'':'readonly'}/></label></div></foreignObject>`;
-    });
-    return result.replace('role="img"','role="group"').replace(`viewBox="0 0 ${w} ${h}"`,`viewBox="0 0 ${width} ${height}"`).replace('</svg>',extra+'</svg>');
+    const targets=active.map(pin=>`<circle class="diagram-target" data-target="${pin.key}" cx="${pin.x}" cy="${pin.y}" r="20"/>`).join('');
+    // Focus highlights sit behind the drawing; no permanent badges obscure its symbols.
+    result=result.replace('</title>','</title><g class="diagram-targets" aria-hidden="true">'+targets+'</g>');
+    const inputs=active.map(pin=>{
+      const field=fields.find(f=>f.key===pin.key),state=results[pin.key],cls=state?(state.ok?'correct':'incorrect'):'';
+      return `<div class="diagram-answer ${cls}"><label><span class="diagram-field-name">${esc(field.label)}</span><span class="diagram-input-wrap"><input data-linked="${pin.key}" aria-label="${esc(field.label)} on diagram${field.unit?' in '+esc(field.unit):''}" type="text" autocomplete="off" spellcheck="false" placeholder="?" value="${esc(draft[pin.key]||'')}" ${editable?'':'readonly'}/><span class="diagram-unit">${esc(field.unit||'')}</span></span></label></div>`;
+    }).join('');
+    return `<div class="circuit-layout"><div class="circuit-canvas" tabindex="0" aria-label="Circuit diagram; scroll horizontally if needed">${result}</div>${inputs?'<div class="diagram-inputs">'+inputs+'</div>':''}</div>`;
   }
   return {render,scene,wave,phasors};
 })();

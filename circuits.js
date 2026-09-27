@@ -4,7 +4,13 @@ const Circuits = (() => {
   const line=(x1,y1,x2,y2,cls='wire')=>`<path class="${cls}" d="M${x1} ${y1}L${x2} ${y2}"/>`;
   const text=(x,y,t,cls='',anchor='middle')=>`<text x="${x}" y="${y}" text-anchor="${anchor}" class="${cls}">${esc(t)}</text>`;
   const dot=(x,y,open=false)=>`<circle class="${open?'terminal':'node'}" cx="${x}" cy="${y}" r="${open?4:3.8}"/>`;
-  const arrow=(x1,y1,x2,y2,label='',tx=(x1+x2)/2,ty=(y1+y2)/2-10)=>line(x1,y1,x2,y2,'current')+`<path d="M${x2} ${y2}l-8 -4v8z" fill="#749556" transform="rotate(${Math.atan2(y2-y1,x2-x1)*180/Math.PI} ${x2} ${y2})"/>`+(label?text(tx,ty,label,'accent small label-bg'):'');
+  const vector=(x1,y1,x2,y2,color='#648651',stroke=2)=>{
+    const length=Math.hypot(x2-x1,y2-y1);if(length<1)return '';
+    const ux=(x2-x1)/length,uy=(y2-y1)/length,head=Math.min(9,length*.32),half=head*.44;
+    const bx=x2-head*ux,by=y2-head*uy;
+    return `<g class="direction-arrow"><path class="arrow-shaft" d="M${x1} ${y1}L${bx} ${by}" fill="none" stroke="${color}" stroke-width="${stroke}" stroke-linecap="butt"/><path class="arrow-head" d="M${x2} ${y2}L${bx-half*uy} ${by+half*ux}L${bx+half*uy} ${by-half*ux}Z" fill="${color}"/></g>`;
+  };
+  const arrow=(x1,y1,x2,y2,label='',tx=(x1+x2)/2,ty=(y1+y2)/2-12)=>vector(x1,y1,x2,y2)+(label?text(tx,ty,label,'accent small label-bg arrow-label'):'');
   const resistor=(x1,y1,x2,y2,label,offset=24)=>{
     const dx=x2-x1,dy=y2-y1,len=Math.hypot(dx,dy),ang=Math.atan2(dy,dx)*180/Math.PI,mx=(x1+x2)/2,my=(y1+y2)/2;
     const vertical=Math.abs(dy)>Math.abs(dx);
@@ -19,7 +25,7 @@ const Circuits = (() => {
     return s+text(mx+(vertical?side*32:0),my+(vertical?6:side*-32),label,'small label-bg',vertical?(side>0?'start':'end'):'middle');
   };
   const ground=(x,y)=>line(x,y-15,x,y)+line(x-13,y,x+13,y)+line(x-8,y+6,x+8,y+6)+line(x-3,y+12,x+3,y+12);
-  const svg=(body,title,w=680,h=350)=>`<svg viewBox="0 0 ${w} ${h}" role="img" aria-label="${esc(title)}" xmlns="http://www.w3.org/2000/svg"><title>${esc(title)}</title>${body}</svg>`;
+  const svg=(body,title,w=680,h=350)=>`<svg viewBox="0 0 ${w} ${h}" style="--circuit-width:${w}px" role="img" aria-label="${esc(title)}" xmlns="http://www.w3.org/2000/svg"><title>${esc(title)}</title>${body}</svg>`;
   const pair=(kind,n)=>{
     let b='',x=210,top=55,bot=280;
     if(kind==='norton'){
@@ -49,7 +55,7 @@ const Circuits = (() => {
         if(i===0)g+=source(x+15,75,x+15,210,'','v',-1)+text(x+48,188,'10 V','small label-bg')+resistor(x+15,75,x+115,75,'2 Ω')+line(x+15,210,x+115,210);
         if(i===1)g+=source(x+15,75,x+15,210,'','i',-1)+text(x+48,188,'5 A','small label-bg')+resistor(x+15,75,x+115,75,'2 Ω')+line(x+15,210,x+115,210);
         if(i>=2)g+=(i===2?source(x+15,210,x+15,75,'','i',-1)+text(x+48,188,'5 A','small label-bg'):source(x+15,75,x+15,210,'','v',-1)+text(x+48,188,'10 V','small label-bg'))+resistor(x+73,75,x+73,210,'2 Ω',18)+line(x+15,75,x+135,75)+line(x+15,210,x+135,210);
-        const end=x+(i<2?115:135);g+=dot(end,75,true)+dot(end,210,true)+text(end+8,100,'+','small')+text(end+8,190,'−','small')+text(end+8,151,'U','small')+(i===0?arrow(x+50,110,x+100,110,'I',x+76,132):arrow(end-8,110,end-48,110,'I',end-28,132))+text(x+70,250,`(${String.fromCharCode(97+i)})`);
+        const end=x+(i<2?115:135);g+=dot(end,75,true)+dot(end,210,true)+text(end+8,100,'+','small')+text(end+8,190,'−','small')+text(end+8,151,'U','small')+(i===0?arrow(x+50,110,x+100,110,'I',x+76,132):arrow(end-8,110,end-48,110,'I',end-28,98))+text(x+70,250,`(${String.fromCharCode(97+i)})`);
         b+=g;
         const shape=order[i],ox=x+28,oy=385;b+=line(ox-10,oy,ox+113,oy,'axis')+line(ox,oy+13,ox,285,'axis')+text(ox+10,282,'U (V)','small')+text(ox+100,427,'I (A)','small')+(shape===3?'':text(ox-11,405,'0','small'));
         if(shape===0)b+=line(ox,325,ox+85,325)+text(ox-16,329,'10','small');
@@ -67,12 +73,12 @@ const Circuits = (() => {
       let s=resistor(...a,...b,'50 Ω')+resistor(...b,...c,'10 Ω')+resistor(...d,...c,'10 Ω',-30)+resistor(...a,...d,'300 Ω',-28);
       s+=source(...a,...o,'','v',-1)+source(...b,...o,'')+source(...o,...c,'')+source(...d,...o,'','v',-1)+text(218,101,'5 V','small label-bg')+text(457,101,'20 V','small label-bg')+text(457,316,'10 V','small label-bg')+text(218,316,'2 V','small label-bg');
       [[a,'A'],[b,'B'],[c,'C'],[d,'D']].forEach(([p,n])=>s+=dot(...p)+text(p[0]+(p[0]<300?-20:20),p[1]+6,n));s+=dot(...o)+text(338,184,'O','small');
-      s+=arrow(293,176,263,153,'IS₁',254,184)+arrow(378,172,410,146,'IS₂',426,182)+arrow(375,226,407,252,'IS₃',432,230)+arrow(294,231,264,254,'IS₄',244,231);
-      s+=arrow(212,26,269,26,'I₁',238,15)+arrow(569,109,569,155,'I₂',590,132)+arrow(220,377,275,377,'I₃',247,398)+arrow(100,110,100,154,'I₄',78,133);
+      s+=arrow(305,160,275,137,'IS₁',292,116)+arrow(366,156,398,130,'IS₂',393,108)+arrow(387,210,419,236,'IS₃',435,213)+arrow(306,247,276,270,'IS₄',312,285);
+      s+=arrow(212,36,269,36,'I₁',238,19)+arrow(569,109,569,155,'I₂',590,132)+arrow(220,377,275,377,'I₃',247,398)+arrow(100,110,100,154,'I₄',78,133);
       return svg(s,'Four ideal voltage sources connected from center O to corners A B C D; source-current arrows point outward',680,425);
     },
     'h2-1':()=>svg(`<rect class="component" x="95" y="70" width="170" height="210" rx="7"/>`+text(180,168,'Circuit')+text(180,193,'box')+line(265,95,470,95)+line(265,255,470,255)+resistor(470,95,470,255,'R')+dot(355,95,true)+dot(355,255,true)+text(355,125,'+')+text(355,178,'U')+text(355,232,'−')+arrow(296,68,345,68,'I'),'Circuit box with external load R; U measured positive at upper terminal'),
-    'h2-2':()=>svg(`<rect x="45" y="35" width="445" height="290" rx="6" class="wire dashed"/>`+source(85,290,85,70,'8 mA','i',-1)+line(85,70,235,70)+line(235,70,360,70)+resistor(235,70,235,180,'R₁ = 2 kΩ',-25)+source(235,180,235,290,'4 V','v',-1)+resistor(360,70,360,290,'R₂ = 2 kΩ',25)+resistor(360,70,560,70,'R₃ = 4 kΩ',-26)+resistor(560,70,560,290,'R',25)+line(85,290,560,290)+arrow(501,43,551,43,'I')+text(625,118,'+')+text(625,189,'UR')+text(625,255,'−'),'Maximum power network: 8 mA current source, 4 V source, 2 kΩ, 2 kΩ and series 4 kΩ to load R',680,365),
+    'h2-2':()=>svg(`<rect x="45" y="35" width="445" height="290" rx="6" class="wire dashed"/>`+source(85,290,85,70,'8 mA','i',1)+line(85,70,235,70)+line(235,70,360,70)+resistor(235,70,235,180,'R₁ = 2 kΩ',-25)+source(235,180,235,290,'4 V','v',-1)+resistor(360,70,360,290,'R₂ = 2 kΩ',25)+resistor(360,70,560,70,'R₃ = 4 kΩ',-26)+resistor(560,70,560,290,'R',25)+line(85,290,560,290)+arrow(501,43,551,43,'I')+text(625,118,'+')+text(625,189,'UR')+text(625,255,'−'),'Maximum power network: 8 mA current source, 4 V source, 2 kΩ, 2 kΩ and series 4 kΩ to load R',680,365),
     'h2-3':branch,
     'h2-4':()=>svg(resistor(230,55,230,175,'2 kΩ',-24)+resistor(230,175,230,295,'3 kΩ',-24)+resistor(445,55,445,175,'2 kΩ')+resistor(445,175,445,295,'3 kΩ')+resistor(230,175,445,175,'2 kΩ')+resistor(65,175,230,175,'6 kΩ')+resistor(445,175,610,175,'6 kΩ')+ground(65,225)+line(65,175,65,210)+ground(610,225)+line(610,175,610,210)+dot(230,175)+dot(445,175)+text(248,203,'A')+text(463,203,'B')+dot(230,55,true)+dot(445,55,true)+dot(230,295,true)+dot(445,295,true)+text(230,30,'+12 V')+text(445,30,'−24 V')+text(230,331,'−24 V')+text(445,331,'+12 V'),'Two-node circuit: A connected to +12 V via 2 kΩ, -24 V via 3 kΩ and ground via 6 kΩ; B reversed; A-B 2 kΩ'),
     'h2-5':()=>{
@@ -98,9 +104,9 @@ const Circuits = (() => {
     for(const [v,n,color] of [[a,'I₁','#4b8d66'],[b,'I₂','#c28b4f']]){
       if(!v||!Number.isFinite(v.mag)||!Number.isFinite(v.phase)||v.mag<0)continue;
       let r=Math.min(v.mag*7,220),rad=v.phase*Math.PI/180,x=320+r*Math.cos(rad),y=190-r*Math.sin(rad);
-      s+=`<path d="M320 190L${x} ${y}" stroke="${color}" stroke-width="3"/><path d="M${x} ${y}l-10 -5v10z" fill="${color}" transform="rotate(${-v.phase} ${x} ${y})"/>`+text(x+(x>=320?18:-18),y-12,n,'small');
+      s+=vector(320,190,x,y,color,3)+text(x+(x>=320?18:-18),y-12,n,'small');
     }
     return svg(s,'Interactive RMS phasor diagram using your entered magnitudes and phases',680,355);
   }
-  return {get:(id,options)=>diagrams[id]?diagrams[id](options):'',phasors,draw:{line,text,dot,arrow,resistor,source,ground,svg,esc}};
+  return {get:(id,options)=>diagrams[id]?diagrams[id](options):'',phasors,draw:{line,text,dot,arrow,vector,resistor,source,ground,svg,esc}};
 })();

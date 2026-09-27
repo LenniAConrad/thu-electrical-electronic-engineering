@@ -12,7 +12,7 @@ for(const original of Questions){
   const model=PracticeModels.build(original.id,seed),p=model.params,draft={},all=model.steps.flatMap(s=>s.fields).concat(model.fields);
   assert.equal(JSON.stringify(model.params),JSON.stringify(PracticeModels.build(original.id,seed).params),'seed reproducibility');
   for(const f of all){assert(f,model.id+' undefined field');assert(Checker.check(f,String(f.answer)).ok,model.id+' '+f.key+' '+f.answer);draft[f.key]=String(f.answer);if(f.type==='number'){assert(Number.isFinite(f.answer),model.id+' finite');if(!['h2-10','h2-11'].includes(model.id))near(f.answer*100,Math.round(f.answer*100),'Tidy exact decimal');}}
-  for(const s of model.steps){const svg=StepVisuals.render(model,s,{},{});assert(svg.startsWith('<svg'),model.id);assert(!svg.includes('NaN')&&!svg.includes('undefined'),model.id+' invalid SVG');assert(StepVisuals.render(model,s,draft,{}).includes('</svg>'));steps++;}
+  for(const s of model.steps){const svg=StepVisuals.render(model,s,{},{});assert(svg.includes('<svg'),model.id);assert(!svg.includes('NaN')&&!svg.includes('undefined'),model.id+' invalid SVG');assert(StepVisuals.render(model,s,draft,{}).includes('</svg>'));steps++;}
   const a=k=>model.fields.find(f=>f.key===k).answer;
   if(model.id==='h1-1'){near(a('i')-p.j1,p.out-p.j2,'KCL');near(a('u'),p.v+p.r1*(p.out-p.j2)+p.r2*p.out,'KVL');}
   if(model.id==='h1-3'){near(a('i'),p.is*(2*p.a)/(3*p.a)-p.is/2,'Bridge');}

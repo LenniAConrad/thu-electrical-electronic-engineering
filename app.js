@@ -53,10 +53,11 @@
     }).join('');
   }
   function draw(){
-    $('diagram').innerHTML=showGiven?current.diagram():StepVisuals.render(current,activeStep(),record().draft,results);
+    $('diagram').innerHTML=showGiven?'<div class="circuit-canvas">'+current.diagram()+'</div>':StepVisuals.render(current,activeStep(),record().draft,results);
     $('diagram').hidden=!$('diagram').innerHTML;
-    // ForeignObject controls carry the same values as the answer form.
-    if($('diagram-dialog').open)$('large-diagram').innerHTML=showGiven?current.diagram():StepVisuals.render(current,activeStep(),record().draft,results);
+    // Diagram controls carry the same values as the answer form.
+    if($('diagram-dialog').open)$('large-diagram').innerHTML=showGiven?'<div class="circuit-canvas">'+current.diagram()+'</div>':StepVisuals.render(current,activeStep(),record().draft,results);
+    highlightTarget(document.activeElement?.dataset.linked||document.activeElement?.name||'');
   }
   function liveText(){
     $('extra').innerHTML=current.extra||'';
@@ -119,6 +120,9 @@
     if(!fromDiagram)draw();liveText();save();
   }
   $('answer-form').addEventListener('input',e=>{if(e.target.name)edited(e.target.name,e.target.value);});
+  function highlightTarget(key){document.querySelectorAll('[data-target]').forEach(el=>el.classList.toggle('active',el.dataset.target===key));}
+  document.addEventListener('focusin',e=>highlightTarget(e.target.dataset.linked||e.target.name||''));
+  document.addEventListener('focusout',()=>highlightTarget(''));
   function diagramInput(e){if(e.target.dataset.linked)edited(e.target.dataset.linked,e.target.value,true);}
   for(const container of [$('diagram'),$('large-diagram')]){
     container.addEventListener('input',diagramInput);
@@ -174,7 +178,7 @@
   });
   $('reset-progress').addEventListener('click',()=>{if(!confirm('Reset all saved answers and progress for both modes?'))return;store.records={};store.randomRecords={};save();render(path());});
   $('given-circuit').addEventListener('click',()=>{showGiven=!showGiven;$('given-circuit').textContent=showGiven?'Step diagram':'Given circuit';draw();});
-  $('enlarge').addEventListener('click',()=>{$('large-diagram').innerHTML=showGiven?current.diagram():StepVisuals.render(current,activeStep(),record().draft,results);$('diagram-dialog').showModal();});
+  $('enlarge').addEventListener('click',()=>{$('large-diagram').innerHTML=showGiven?'<div class="circuit-canvas">'+current.diagram()+'</div>':StepVisuals.render(current,activeStep(),record().draft,results);$('diagram-dialog').showModal();});
   $('close-diagram').addEventListener('click',()=>$('diagram-dialog').close());
   $('diagram-dialog').addEventListener('click',e=>{if(e.target===$('diagram-dialog'))$('diagram-dialog').close();});
   $('diagram-dialog').addEventListener('close',()=>{if(current)draw();});

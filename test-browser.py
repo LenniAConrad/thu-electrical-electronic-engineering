@@ -72,7 +72,7 @@ with sync_playwright() as p:
     page.locator(f'[data-step="{i}"]').click()
     assert page.locator('#fields .field').count()==len(step['fields'])
     assert page.locator('#diagram svg').count()==1
-    assert page.locator('#diagram svg').bounding_box()['width']>=900
+    assert page.locator('#diagram svg').evaluate('(svg)=>svg.getBoundingClientRect().width >= svg.viewBox.baseVal.width')
     if not random and (q['id'],i) in captures:
      page.locator('#diagram').screenshot(path=str(OUT/f'{q["id"]}-step{i}.png'))
     fill(step['fields']);page.locator('#check').click()
@@ -105,7 +105,7 @@ with sync_playwright() as p:
  for qid in ['h1-1','h1-2','h1-5a','h2-3','h2-10']:
   other.goto(BASE+'#'+qid);other.locator('[data-working=steps]').click()
   assert other.evaluate('document.documentElement.scrollWidth <= innerWidth'),qid+' page overflow'
-  assert other.locator('#diagram svg').bounding_box()['width']>=900
+  assert other.locator('#diagram svg').evaluate('(svg)=>svg.getBoundingClientRect().width >= svg.viewBox.baseVal.width')
   other.locator('#formula-reference summary').click()
   other.locator('[data-formula-scope=all]').click()
   assert other.evaluate('document.documentElement.scrollWidth <= innerWidth'),qid+' formulas overflow'
@@ -120,5 +120,5 @@ with sync_playwright() as p:
  offline=browser.new_page();offline.goto(Path('index.html').resolve().as_uri()+'#h1-1');offline.wait_for_selector('#fields input')
  assert offline.locator('#step-title').inner_text()=='Right junction'
  assert not errors,errors
- print(json.dumps({'cards':len(qs),'guided_steps_checked':count,'modes':['official','random'],'formula_reference':'all 25 cards and all 22 formula entries','diagram_input_sync':'passed','wrong_answer_feedback':'passed','new_numbers':'passed','separate_progress':'passed','reload':'passed','assisted_attempt':'passed','mobile':'5 cases, >=900px diagrams, formulas fit without page overflow','offline':'passed','console_errors':errors},indent=2))
+ print(json.dumps({'cards':len(qs),'guided_steps_checked':count,'modes':['official','random'],'formula_reference':'all 25 cards and all 22 formula entries','diagram_input_sync':'passed','wrong_answer_feedback':'passed','new_numbers':'passed','separate_progress':'passed','reload':'passed','assisted_attempt':'passed','mobile':'5 cases, full-size diagrams, formulas fit without page overflow','offline':'passed','console_errors':errors},indent=2))
  browser.close()
