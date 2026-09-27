@@ -16,6 +16,7 @@
   const answerText=f=>f.type==='choice'?f.options.find(o=>o[0]===String(f.answer))[1]:typeof f.answer==='number'?fmt(f.answer)+(f.unit?' '+f.unit:''):f.answer;
   function activeStep(){return store.working==='steps'?current.steps[stepIndex]:null;}
   function courseNavigation(){
+    $('print-worksheet').href='worksheet.html?'+new URLSearchParams({homework:String(current?.set||1),mode,...(mode==='random'&&current?{seed:String(current.seed)}:{})});
     $('homework-select').innerHTML='<option value="">All homework</option>'+Course.sets().map(h=>`<option value="${h.id}" ${h.questions.length?'':'disabled'}>${h.title}${h.questions.length?'':' · Not added yet'}</option>`).join('');
     $('homework-select').value=current?String(current.set):'';
     document.querySelectorAll('[data-mode]').forEach(b=>{const yes=b.dataset.mode===mode;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',yes);});

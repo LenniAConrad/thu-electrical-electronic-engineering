@@ -40,6 +40,10 @@ Run `node test-checker.cjs` for checker and coverage checks, and `node test-mode
 
 ## Publishing
 
+**Print / PDF** opens a worksheet preview for the selected homework and mode. Choose **New numbers** for another complete practice set, or reuse its sheet number to reproduce it. The current random exercise keeps its values when opening the preview; other exercises use that same sheet number. Each exercise gets an A4 page with a full-width circuit and blank answer/working space. **Include answer key** adds separate pages at the end; answers are excluded by default. Use **Print / Save PDF** and select the browser's PDF destination, with browser headers and footers turned off. Printing does not change saved progress and also works offline.
+
+Run `python test-print.py` with Playwright and Poppler installed to check the worksheet controls, original/generated values, answer keys, reproducible sets, mobile/offline access and actual A4 PDF pagination for both homeworks and modes. Review PDFs and preview images are written to `.build/print-review`.
+
 The site runs without a backend or build dependencies. GitHub Actions checks the question bank and builds a runtime-only artifact with `node build-site.cjs`, then publishes it to GitHub Pages on every push to `main`. The publishing source is **GitHub Actions**.
 
 Progress is saved locally in the browser. The public website and localhost have separate browser storage; there is no account or cross-device sync. The browser key retains its original name to preserve existing local progress.
