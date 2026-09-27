@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Circuit playground · THU EEE</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="circuit-lab.css">
+  <script defer src="circuits.js"></script><script defer src="circuit-solver.js"></script><script defer src="circuit-lab.js"></script>
+</head>
+<body>
+  <header class="lab-header"><a href="index.html">← Homework</a><div><h1>Circuit playground</h1><p>10220074 · Luo Haiyun · Linear DC circuits</p></div><span id="save-state">Saved on this browser</span></header>
+  <main>
+    <div class="lab-actions"><label>Start with<select id="example"><option value="divider">Voltage divider</option><option value="parallel">Parallel resistors</option><option value="bridge">Resistor bridge</option><option value="current">Current source</option><option value="blank">Blank canvas</option></select></label><button id="load-example">Load</button><button id="undo" disabled>Undo</button><button id="redo" disabled>Redo</button><button id="export">Save circuit</button><label class="file-button">Open circuit<input id="import" type="file" accept="application/json,.json"></label></div>
+    <div class="lab-layout">
+      <section class="canvas-card" aria-label="Circuit editor">
+        <div class="tools" role="group" aria-label="Drawing tools"><button data-tool="select" aria-pressed="true">Select / move</button><button data-tool="node">Junction</button><button data-tool="R">Resistor</button><button data-tool="V">Voltage source</button><button data-tool="I">Current source</button><button data-tool="W">Wire</button><button data-tool="S">Switch</button><button data-tool="ground">Ground</button></div>
+        <p id="tool-help">Click a junction or component to inspect it. Drag junctions to rearrange the circuit.</p>
+        <div class="canvas-scroll"><svg id="canvas" viewBox="0 0 1000 640" aria-label="Editable circuit" xmlns="http://www.w3.org/2000/svg"><title>Circuit playground</title></svg></div>
+        <div id="solve-status" role="status" aria-live="polite"></div>
+        <p class="canvas-note">Arrows define positive current. Source + is at the first terminal. Crossing lines are not connected.</p>
+      </section>
+      <aside id="inspector" aria-label="Selection and calculations"></aside>
+    </div>
+    <section class="results-card"><div class="results-heading"><h2>Circuit results</h2><span>Calculated automatically after each edit</span></div><div id="results"></div><details id="equation-details"><summary>All circuit equations</summary><div id="equations"></div><p class="method">Node equations and source constraints are solved together using <a href="https://qucs.sourceforge.net/tech/node14.html" target="_blank" rel="noopener">modified nodal analysis</a>. Voltages are relative to ground. Positive power is absorbed; negative power is supplied.</p></details></section>
+  </main>
+</body>
+</html>

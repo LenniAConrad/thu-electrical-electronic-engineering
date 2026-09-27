@@ -38,6 +38,18 @@ Run `node test-checker.cjs` for checker and coverage checks, and `node test-mode
 
 `node test-review.cjs` independently audits all 25 official cards and 100 seeds per card (2,525 models). It solves the drawn circuits by modified nodal analysis, checks source equivalents under external loads, reconstructs the complex phasors, and verifies diagram values and formula coverage. See `REVIEW.md` for the exercise-by-exercise review.
 
+## Circuit playground
+
+**Circuit playground** opens a separate editor for linear DC circuits. Start with a voltage divider, parallel resistors, a bridge, a current-source example, or a blank canvas. Add junctions, choose a component, then click its two terminals. Select a component to edit its value/units or switch state; choose **Apply** to recalculate. **Select / move** lets you drag junctions. A wire can be split by clicking it with the **Junction** tool. Crossings are not electrical connections unless endpoints share a junction.
+
+Resistors, independent ideal voltage/current sources, wires and open/closed switches are supported. The first junction on a blank canvas is the ground reference; **Ground** changes it. Current is positive from the first terminal to the second; voltage-source positive polarity is at the first terminal. Results include every node voltage, branch voltage/current, and absorbed/supplied power. Click a junction to see KCL, its rearrangement and numerical substitution; click a component for Ohm's law, source constraints and power calculations. The complete coupled equations are available below the results. The solver uses [modified nodal analysis](https://qucs.sourceforge.net/tech/node14.html), with equilibrated elimination and residual checks.
+
+This is a DC tool, without AC/transient or semiconductor models. Floating networks, contradictory ideal sources and indeterminate ideal-source/wire loops are reported instead of displaying a solution. Up to 24 junctions and 48 components are supported. Resistors range from 1 µΩ to 1 GΩ; source limits are ±1 MV and ±1 kA. Extremely ill-conditioned networks may be rejected. Display values are rounded; calculations retain full floating-point precision.
+
+The editor autosaves separately from homework progress. **Save circuit / Open circuit** exports and imports JSON circuit files; **Undo / Redo** also reverses example loads and deletions. It runs offline without sending the circuit anywhere.
+
+Run `node test-circuit-solver.cjs` for independent prescribed-voltage networks, source polarity, supernodes, bridge balance, switches, wires, grounding, extreme resistances, KCL/power conservation and invalid networks. Run `python test-circuit-lab.py` with the local server to verify building/editing, equations, dragging, wire splitting, undo/redo, saving/loading, persistence, readable labels, mobile layouts and offline use. The solver test also runs before deployment.
+
 ## Publishing
 
 **Print / PDF** opens a worksheet preview for the selected homework and mode. Choose **New numbers** for another complete practice set, or reuse its sheet number to reproduce it. The current random exercise keeps its values when opening the preview; other exercises use that same sheet number. Each exercise gets an A4 page with a full-width circuit and blank answer/working space. **Include answer key** adds separate pages at the end; answers are excluded by default. Use **Print / Save PDF** and select the browser's PDF destination, with browser headers and footers turned off. Printing does not change saved progress and also works offline.

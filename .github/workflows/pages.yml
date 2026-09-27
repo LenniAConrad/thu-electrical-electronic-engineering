@@ -22,6 +22,7 @@ jobs:
           node test-models.cjs
           node test-review.cjs
           node test-course.cjs
+          node test-circuit-solver.cjs
       - name: Build static site
         run: node build-site.cjs
       - uses: actions/configure-pages@v5
