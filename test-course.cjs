@@ -1,0 +1,12 @@
+const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
+const ctx=vm.createContext({});
+for(const file of ['questions.js','course.js'])vm.runInContext(fs.readFileSync(file,'utf8'),ctx);
+vm.runInContext('globalThis.api={Questions,Course}',ctx);
+const {Questions,Course}=ctx.api;
+assert.equal(Course.sets().length,4);
+assert.deepEqual(Array.from(Course.sets(),h=>h.questions.length),[14,11,0,0]);
+Questions.push({id:'h3-1',set:3,ref:'1',title:'Test future homework'});
+assert.equal(Course.sets().find(h=>h.id===3).questions.length,1);
+Questions.push({id:'h5-1',set:5,ref:'1',title:'Test later homework'});
+assert.equal(Course.sets().find(h=>h.id===5).questions.length,1);
+console.log('Course catalog supports current, planned and newly added homework sets.');
