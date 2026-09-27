@@ -36,9 +36,12 @@ const CircuitSolver=(()=>{
     }
     const x=Array(n).fill(0);pivots.forEach((col,i)=>x[col]=a[i][n]/cols[col]);
     if(x.some(v=>!Number.isFinite(v)))throw Error('The values are too extreme for a reliable solution.');
+    // Near-zero branch currents can retain elimination roundoff even when every
+    // source constraint is satisfied. Bound that error in the equilibrated system.
+    const roundoff=128*Number.EPSILON*n*Math.max(1e-12,...x.map((v,j)=>Math.abs(v*cols[j])));
     for(let i=0;i<n;i++){
       const terms=A[i].map((v,j)=>v*x[j]),err=Math.abs(terms.reduce((s,v)=>s+v,0)-b[i]);
-      if(err>1e-7*Math.max(1e-9,Math.abs(b[i]),terms.reduce((s,v)=>s+Math.abs(v),0)))throw Error('The values are too extreme for a reliable solution.');
+      if(err>roundoff*rows[i]+1e-7*Math.max(1e-9,Math.abs(b[i]),terms.reduce((s,v)=>s+Math.abs(v),0)))throw Error('The values are too extreme for a reliable solution.');
     }
     return x;
   }

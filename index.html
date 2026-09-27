@@ -7,10 +7,11 @@
   <meta name="description" content="Course 10220074: homework exercises, randomized practice, circuit diagrams and formulas for Electrical &amp; Electronic Engineering at Tsinghua.">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="visual-polish.css">
+  <link rel="stylesheet" href="visual-polish.css?v=exercise-playgrounds">
   <script defer src="circuits.js"></script><script defer src="questions.js"></script><script defer src="course.js"></script>
   <script defer src="checker.js"></script><script defer src="practice-models.js"></script>
-  <script defer src="step-visuals.js"></script><script defer src="formulas.js"></script><script defer src="app.js"></script>
+  <script defer src="step-visuals.js"></script><script defer src="formulas.js"></script><script defer src="exercise-playgrounds.js"></script>
+  <script defer src="app.js?v=exercise-playgrounds"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to exercise</a>
@@ -39,7 +40,7 @@
           <h2 id="problem-heading">Problem</h2><div id="statement" class="statement"></div><div id="source-note"></div>
           <div class="working-mode" role="group" aria-label="Working style"><button data-working="steps">Step by step</button><button data-working="direct">Just the answer</button></div>
           <nav id="step-nav" aria-label="Calculation steps"></nav>
-          <div class="step-heading"><h3 id="step-title"></h3><div class="diagram-actions"><button class="text-button" id="given-circuit" hidden>Given circuit</button><button class="text-button" id="enlarge">Enlarge ↗</button></div></div>
+          <div class="step-heading"><h3 id="step-title"></h3><div class="diagram-actions"><a class="text-button" id="open-playground" href="circuit-lab.html" target="_blank" rel="noopener">Open in playground ↗</a><button class="text-button" id="given-circuit" hidden>Given circuit</button><button class="text-button" id="enlarge">Enlarge ↗</button></div></div>
           <p id="step-prompt"></p>
           <div id="diagram" class="diagram"></div><div id="extra"></div>
           <div class="diagram-caption" id="diagram-caption"></div>

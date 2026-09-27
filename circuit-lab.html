@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
   <title>Circuit playground · THU EEE</title>
-  <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="circuit-lab.css?v=current-flow">
-  <script defer src="circuits.js"></script><script defer src="circuit-solver.js"></script><script defer src="circuit-flow.js"></script><script defer src="circuit-lab.js?v=current-flow"></script>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml"><link rel="stylesheet" href="circuit-lab.css?v=exercise-playgrounds">
+  <script defer src="circuits.js"></script><script defer src="circuit-solver.js?v=exercise-playgrounds"></script><script defer src="circuit-flow.js"></script><script defer src="questions.js"></script><script defer src="practice-models.js"></script><script defer src="exercise-playgrounds.js"></script><script defer src="circuit-lab.js?v=exercise-playgrounds"></script>
 </head>
 <body>
   <header class="lab-header"><a href="index.html">← Homework</a><div><h1>Circuit playground</h1><p>10220074 · Luo Haiyun · Linear DC circuits</p></div><span id="save-state">Saved on this browser</span></header>
   <main>
+    <section id="exercise-source" class="exercise-source" hidden><div><a id="exercise-back"></a><p id="exercise-context"></p></div><div class="source-actions"><label id="variant-label" hidden>Circuit <select id="exercise-variant"></select></label><button id="reset-exercise">Reset exercise values</button></div><p id="exercise-notes"></p></section>
     <div class="lab-actions"><label>Start with<select id="example"><option value="divider">Voltage divider</option><option value="parallel">Parallel resistors</option><option value="bridge">Resistor bridge</option><option value="current">Current source</option><option value="blank">Blank canvas</option></select></label><button id="load-example">Load</button><button id="undo" disabled>Undo</button><button id="redo" disabled>Redo</button><button id="export">Save circuit</button><label class="file-button">Open circuit<input id="import" type="file" accept="application/json,.json"></label></div>
     <div class="lab-layout">
       <section class="canvas-card" aria-label="Circuit editor">

@@ -58,3 +58,11 @@ Official mode retains the sheet's statements, numbers, circuit connections, refe
 HW2 1.21 repeats the symbolic network from 1.18, captions it P1.19, and supplies neither numerical component values nor one current labelled I. Official mode preserves the supplied diagram and statement with an explicit note, checking node equations and the five labelled current expressions. Random mode supplies component values and clearly states its adapted target. This is an explicit adaptation, not a claimed numerical solution of the ambiguous original.
 
 The symbolic checker accepts rearrangements and constant multiples of the requested equation rows. It is not a general proof engine for every alternative independent loop basis.
+
+## Exercise-to-playground review
+
+All 25 exercise cards now have a reproducible playground link. Direct component/node topology adapters preserve SI units and source polarities; annotations identify every illustrative value, added boundary source or load, and the derived black-box equivalent. All four characteristic circuits are selectable. Symbolic problems retain their topology, with explicitly supplied example values. Both AC tasks have editable phasor/waveform diagrams using the homework's RMS and sine conventions.
+
+The new numerical test covers 2,828 models (official + 100 seeds, including four characteristic subcircuits), checking branch currents, node voltages, source conversions under load, maximum load power, and both switch states. The open-switch case exposed a residual check that rejected harmless elimination roundoff in zero-current branches; a scale-aware roundoff bound fixes it. Existing solver and current-flow regression suites pass.
+
+Browser review covers every official/random link, all subcircuits, editing/reset, unchanged custom circuit storage, AC input/time controls, mobile width containment, and offline interaction. Diagram labels and arrowheads have no overlapping text in these states. The densest source, switch, and bridge circuits were visually inspected and rerouted so components do not sit at wire crossings.

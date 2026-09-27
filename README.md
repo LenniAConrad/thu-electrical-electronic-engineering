@@ -79,3 +79,11 @@ The fixed coverage counts in the current tests intentionally require updating wh
 The homework material belongs to its respective authors. This is an independent study tool, not an official Tsinghua University website.
 
 `python test-visuals.py` checks 938 official/random diagram states for overlapping labels, arrowheads, and clipped text. It also checks six viewport widths, focus highlights, the enlarged mobile diagram, and coincident phasors. Diagram text stays at its native readable size; narrow screens scroll the drawing while keeping answer inputs visible.
+
+## Exercise playgrounds
+
+Every exercise has **Open in playground**, carrying its official values or exact random seed into an editable diagram. The DC editor supports all circuit exercises, including all four characteristic subcircuits, test loads for open terminals, and the homework switch. Click a component to change its value, or a junction for KCL and current flow. **Reset exercise values** restores the imported model. Exercise copies leave saved custom circuits and homework answers unchanged; use **Save circuit** to keep an edited copy.
+
+Adaptations are stated above the drawing: boundary current sources close the fragment in HW1 question 1; illustrative component values realize the current-only KCL problem; symbolic networks receive example values; the black box uses its derived Thévenin equivalent; and unknown/open loads receive labeled test values. No internal black-box topology is asserted. The two AC exercises open a phasor/waveform playground with editable givens, phase comparison, and a time slider. They are not modeled as DC circuits.
+
+`node test-exercise-playgrounds.cjs` checks 2,828 official/seeded exercise and subcircuit models against homework quantities, loaded equivalents, switch states, and AC reconstruction. `python test-exercise-playgrounds.py` checks every link in both modes, diagram labels/arrows, editing/reset, saved circuit isolation, AC controls, offline use, and narrow layouts. New exercises also need an adapter in `exercise-playgrounds.js` and matching tests.

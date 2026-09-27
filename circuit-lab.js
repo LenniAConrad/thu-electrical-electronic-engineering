@@ -1,6 +1,7 @@
 (() => {
   'use strict';
   const $=id=>document.getElementById(id),esc=Circuits.draw.esc,{quantity:q,num}=CircuitSolver;
+  let exercise=null;try{exercise=ExercisePlaygrounds.read(location.search);if(exercise&&['h2-10','h2-11'].includes(exercise.id)){location.replace(ExercisePlaygrounds.url(exercise));return;}}catch(error){$('save-state').textContent=error.message;}
   const key='thu-eee-circuit-lab-v1',clone=x=>JSON.parse(JSON.stringify(x)),undo=[],redo=[];
   const compact=(v,u)=>q(Number(v.toPrecision(3)),u);
   const types={R:'Resistor',V:'Voltage source',I:'Current source',W:'Wire',S:'Switch'};
@@ -16,11 +17,31 @@
   let circuit=example('divider'),tool='select',pending=null,selected={kind:'node',id:'n2'},result,drag=null,suppressClick=false;
   const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
   let flow,flowShown=true,flowPlaying=!reducedMotion.matches,flowSpeed=1,flowTime=0,flowFrame=null,flowLast=null,flowPaths=[];
-  try{const data=JSON.parse(localStorage.getItem(key));if(data){CircuitSolver.validate(data);circuit=data;selected=null;}}catch{$('save-state').textContent='Using the example circuit';}
+  try{const data=JSON.parse(localStorage.getItem(key));if(data&&!exercise){CircuitSolver.validate(data);circuit=data;selected=null;}}catch{$('save-state').textContent='Using the example circuit';}
+  function loadExercise(){
+    $('exercise-source').hidden=false;
+    const model=ExercisePlaygrounds.build(exercise,$('exercise-variant').value||'a');
+    circuit=model.circuit;selected=null;undo.length=0;redo.length=0;pending=null;
+    $('exercise-notes').textContent=model.notes.join(' ');
+  }
+  if(exercise){
+    $('exercise-source').hidden=false;
+    $('exercise-back').textContent=`Homework ${exercise.set} · ${exercise.ref} · ${exercise.title}`;
+    $('exercise-back').href=ExercisePlaygrounds.back(exercise);
+    document.querySelector('.lab-header>a').href=ExercisePlaygrounds.back(exercise);
+    $('exercise-context').textContent=exercise.random?`Random practice · Seed ${exercise.seed}`:'Official homework';
+    const variants=ExercisePlaygrounds.build(exercise).variants;
+    $('variant-label').hidden=!variants.length;
+    $('exercise-variant').innerHTML=variants.map(v=>`<option value="${v}">(${v})</option>`).join('');
+    loadExercise();
+    $('save-state').textContent='Exercise copy · Homework answers unchanged';
+    $('reset-exercise').onclick=()=>{loadExercise();save();render();};
+    $('exercise-variant').onchange=()=>{loadExercise();save();render();};
+  }
   const node=id=>circuit.nodes.find(n=>n.id===id),name=id=>node(id)?.name||'?';
   const newId=(kind,items)=>{let i=1;while(items.some(x=>x.id===kind+i))i++;return kind+i;};
   const nodeOptions=id=>circuit.nodes.map(n=>`<option value="${n.id}" ${n.id===id?'selected':''}>${esc(n.name)}${n.id===circuit.ground?' (ground)':''}</option>`).join('');
-  function save(){try{localStorage.setItem(key,JSON.stringify(circuit));$('save-state').textContent='Saved on this browser';}catch{$('save-state').textContent='Use Save circuit to keep a copy';}}
+  function save(){if(exercise){$('save-state').textContent='Exercise copy · Save circuit to keep edits';return;}try{localStorage.setItem(key,JSON.stringify(circuit));$('save-state').textContent='Saved on this browser';}catch{$('save-state').textContent='Use Save circuit to keep a copy';}}
   function commit(before){undo.push(before);if(undo.length>60)undo.shift();redo.length=0;save();render();}
   function change(fn){const before=clone(circuit);fn();commit(before);}
   function setTool(t){tool=t;pending=null;document.querySelectorAll('[data-tool]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.tool===tool));help();draw();}
@@ -32,7 +53,8 @@
     const siblings=circuit.parts.filter(x=>(x.a===p.a&&x.b===p.b)||(x.b===p.a&&x.a===p.b));
     // Orient parallel offsets by stable endpoint order, regardless of source direction.
     const offset=(siblings.indexOf(p)-(siblings.length-1)/2)*110*(p.a<p.b?1:-1);
-    return {a,b,ux,uy,nx,ny,cx:(a.x+b.x)/2+nx*offset,cy:(a.y+b.y)/2+ny*offset,angle:Math.atan2(dy,dx)*180/Math.PI};
+    const t=Number.isFinite(p.position)?Math.max(.2,Math.min(.8,p.position)):.5;
+    return {a,b,ux,uy,nx,ny,cx:a.x+dx*t+nx*offset,cy:a.y+dy*t+ny*offset,angle:Math.atan2(dy,dx)*180/Math.PI};
   }
   function drawPart(p){
     const {a,b,ux,uy,nx,ny,cx,cy,angle}=geometry(p),half=p.kind==='R'?34:23;
@@ -217,11 +239,11 @@
   document.querySelectorAll('[data-tool]').forEach(b=>b.onclick=()=>setTool(b.dataset.tool));
   document.addEventListener('keydown',e=>{if(e.key==='Escape'){pending=null;setTool('select');}if((e.ctrlKey||e.metaKey)&&e.key==='z'&&!e.target.closest('input,select,textarea')){e.preventDefault();(e.shiftKey?$('redo'):$('undo')).click();}});
   document.addEventListener('click',e=>{const n=e.target.closest('[data-inspect-node]'),p=e.target.closest('[data-inspect-part]');if(n)pick('node',n.dataset.inspectNode);if(p)pick('part',p.dataset.inspectPart);});
-  $('load-example').onclick=()=>{change(()=>{circuit=example($('example').value);selected=null;pending=null;});setTool('select');};
+  $('load-example').onclick=()=>{$('exercise-source').hidden=true;change(()=>{circuit=example($('example').value);selected=null;pending=null;});setTool('select');};
   $('undo').onclick=()=>{if(!undo.length)return;redo.push(clone(circuit));circuit=undo.pop();pending=null;selected=null;save();render();};
   $('redo').onclick=()=>{if(!redo.length)return;undo.push(clone(circuit));circuit=redo.pop();pending=null;selected=null;save();render();};
   $('export').onclick=()=>{const blob=new Blob([JSON.stringify(circuit,null,2)],{type:'application/json'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='my-dc-circuit.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};
-  $('import').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>100000)throw Error('Choose a circuit JSON file smaller than 100 KB.');const next=JSON.parse(await file.text());CircuitSolver.validate(next);if(next.nodes.some(n=>n.x<60||n.x>920||n.y<60||n.y>560))throw Error('Junctions must fit inside the circuit canvas.');change(()=>{circuit=next;selected=null;pending=null;});setTool('select');}catch(error){$('tool-help').textContent='Could not open circuit: '+error.message;}e.target.value='';};
+  $('import').onchange=async e=>{const file=e.target.files[0];if(!file)return;try{if(file.size>100000)throw Error('Choose a circuit JSON file smaller than 100 KB.');const next=JSON.parse(await file.text());CircuitSolver.validate(next);if(next.nodes.some(n=>n.x<60||n.x>920||n.y<60||n.y>560))throw Error('Junctions must fit inside the circuit canvas.');$('exercise-source').hidden=true;change(()=>{circuit=next;selected=null;pending=null;});setTool('select');}catch(error){$('tool-help').textContent='Could not open circuit: '+error.message;}e.target.value='';};
   $('show-flow').onchange=e=>{flowShown=e.target.checked;draw();};
   $('flow-play').onclick=()=>{flowPlaying=!flowPlaying;refreshFlow();};
   $('flow-speed').oninput=e=>{flowSpeed=Number(e.target.value);$('flow-speed-value').textContent=flowSpeed+'×';};
