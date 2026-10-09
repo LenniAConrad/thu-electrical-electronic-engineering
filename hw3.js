@@ -19,7 +19,7 @@ const HW3=(()=>{
    if(id==='p24')b=loop(240,'C',true)+T(520,120,'+  uR  −')+T(520,235,'+  uC  −');
    if(id==='p25')b=loop(240,'L',true);
   }
-  return SVG(b,'Official circuit for HW03 '+id.slice(1),720,365);
+  return SVG(b,'Official circuit for HW03 '+id.slice(1),760,365);
  }
  const xc=1/(1000*Math.PI*1e-8),z=Math.hypot(20000,xc),I=10/z,phi=Math.atan2(xc,20000)*180/Math.PI;
  const problems=[
