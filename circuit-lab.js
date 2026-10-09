@@ -139,7 +139,7 @@
     const list=items=>items.map(b=>`<li><button type="button" data-inspect-part="${b.id}">${esc(b.id)}</button><span>${esc(q(b.magnitude,'A'))}<small>${esc(name(b.from)+' → '+name(b.to))}</small></span></li>`).join('')||'<li>None</li>';
     return `<section class="junction-flow"><h3>Current at this junction</h3><div class="flow-balance"><div><h4>In · ${esc(q(f.totalIn,'A'))}</h4><ul>${list(f.incoming)}</ul></div><div><h4>Out · ${esc(q(f.totalOut,'A'))}</h4><ul>${list(f.outgoing)}</ul></div></div><p>Σ I in = Σ I out</p></section>`;
   }
-  function equationBlock(title,text){return `<div class="formula"><strong>${esc(title)}</strong>${esc(text)}</div>`;}
+  function equationBlock(title,text){return `<div class="formula"><strong>${esc(title)}</strong>${MathView.html(MathView.plain(text),true)}</div>`;}
   function constraint(p){return `V_${name(p.a)} − V_${name(p.b)} = ${num(p.kind==='V'?p.value:0)} V`;}
   function nodeEquation(id){const terms=CircuitSolver.nodeTerms(circuit,id);return (terms.map(t=>t.term).join(' + ').replaceAll('+ −','− ')||'0')+' = 0';}
   function voltageDerivation(n){

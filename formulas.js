@@ -24,6 +24,30 @@ const Formulas=(()=>{
     phase:['Phase relationship','Δφ = φ₁ − φ₂','Same frequency; reduce Δφ to (−180°, 180°]. Positive: 1 leads 2; negative: 1 lags 2; zero: in phase.'],
     units:['Units','1 kΩ = 10³ Ω; 1 mA = 10⁻³ A<br>V/kΩ = mA; V · mA = mW','']
   };
+  const tex={
+    ohm:String.raw`U=RI,\qquad I=\frac{V_A-V_B}{R}`,
+    voltage:String.raw`U_{AB}=V_A-V_B`,
+    kcl:String.raw`\sum I_{\mathrm{in}}=\sum I_{\mathrm{out}}`,
+    kvl:String.raw`\sum U=0`,
+    series:String.raw`R_{\mathrm{eq}}=R_1+R_2+\cdots`,
+    parallel:String.raw`\frac1{R_{\mathrm{eq}}}=\frac1{R_1}+\frac1{R_2}+\cdots,\qquad R_1\parallel R_2=\frac{R_1R_2}{R_1+R_2}`,
+    divider:String.raw`U_2=U\frac{R_2}{R_1+R_2}`,
+    currentDivider:String.raw`I_1=I\frac{R_2}{R_1+R_2},\qquad I_2=I\frac{R_1}{R_1+R_2}`,
+    sources:String.raw`\text{Voltage source: }U=U_s\qquad\text{Current source: }I=I_s`,
+    conversion:String.raw`I_N=\frac{U_{\mathrm{th}}}{R},\quad U_{\mathrm{th}}=I_NR,\quad R_N=R_{\mathrm{th}}=R`,
+    limits:String.raw`\text{Ideal voltage source: }R_{\mathrm{out}}=0\\\text{Ideal current source: }R_{\mathrm{out}}\to\infty`,
+    deactivate:String.raw`U_s=0\Rightarrow\text{short circuit}\\I_s=0\Rightarrow\text{open circuit}`,
+    thevenin:String.raw`U_{\mathrm{th}}=U_{\mathrm{open}}\\I_L=\frac{U_{\mathrm{th}}}{R_{\mathrm{th}}+R_L},\qquad U_L=\frac{U_{\mathrm{th}}R_L}{R_{\mathrm{th}}+R_L}`,
+    power:String.raw`P=UI=I^2R=\frac{U^2}{R}`,
+    maximum:String.raw`R_L=R_{\mathrm{th}},\qquad P_{\max}=\frac{U_{\mathrm{th}}^2}{4R_{\mathrm{th}}}`,
+    nodes:String.raw`\sum\frac{V_{\mathrm{node}}-V_{\mathrm{adjacent}}}{R}=I_{\mathrm{injected}}`,
+    superposition:String.raw`I=I'+I''+\cdots,\qquad U=U'+U''+\cdots`,
+    switch:String.raw`\text{Closed: }U_K=0\qquad\text{Open: }I_K=0`,
+    sinusoid:String.raw`x(t)=\hat X\sin(\omega t+\varphi)\\\omega=2\pi f,\qquad T=\frac1f,\qquad X=\frac{\hat X}{\sqrt2}`,
+    phasor:String.raw`\underline X=X\angle\varphi=a+jb\\X=\sqrt{a^2+b^2},\quad\varphi=\operatorname{atan2}(b,a)\\x(t)=\sqrt2 X\sin(2\pi ft+\varphi)`,
+    phase:String.raw`\Delta\varphi=\varphi_1-\varphi_2`,
+    units:String.raw`1\,\mathrm{k\Omega}=10^3\,\Omega,\quad1\,\mathrm{mA}=10^{-3}\,\mathrm A\\\mathrm{V/k\Omega}=\mathrm{mA},\qquad\mathrm V\cdot\mathrm{mA}=\mathrm{mW}`
+  };
   const map={
     'h1-1':['ohm','voltage','kcl','kvl'],
     'h1-2':['ohm','kcl','kvl','sources'],
@@ -45,7 +69,7 @@ const Formulas=(()=>{
   };
   for(const part of 'abcd')for(const type of ['5','6'])map['h1-'+type+part]=['sources','conversion',...(part==='d'?['limits']:['ohm'])];
   function render(id,all=false){
-    return (all?Object.keys(entries):map[id]).map(key=>{const [name,formula,note]=entries[key];return `<div class="formula-item" data-formula="${key}"><dt>${name}</dt><dd>${formula}</dd>${note?`<dd class="formula-note">${note}</dd>`:''}</div>`;}).join('');
+    return (all?Object.keys(entries):map[id]).map(key=>{const [name,formula,note]=entries[key];return `<div class="formula-item" data-formula="${key}"><dt>${name}</dt><dd>${typeof MathView!=='undefined'?MathView.html(tex[key],true):formula}</dd>${note?`<dd class="formula-note">${note}</dd>`:''}</div>`;}).join('');
   }
   return {render,map,entries};
 })();

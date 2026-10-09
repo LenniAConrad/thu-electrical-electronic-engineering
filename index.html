@@ -8,11 +8,11 @@
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="visual-polish.css?v=exercise-playgrounds">
-  <script defer src="circuits.js"></script><script defer src="questions.js"></script><script defer src="course.js"></script>
+  <script defer src="assets/katex/katex.min.js"></script><script defer src="math-render.js"></script><script defer src="circuits.js"></script><script defer src="questions.js"></script><script defer src="course.js"></script>
   <script defer src="checker.js"></script><script defer src="practice-models.js"></script>
   <script defer src="step-visuals.js"></script><script defer src="formulas.js"></script><script defer src="exercise-playgrounds.js"></script>
   <script defer src="app.js?v=exercise-playgrounds"></script>
-</head>
+<link rel="stylesheet" href="assets/katex/katex.min.css"><link rel="stylesheet" href="math.css"></head>
 <body>
   <a class="skip" href="#main">Skip to exercise</a>
   <aside class="sidebar">
@@ -21,7 +21,7 @@
     <div class="course-name">Electrical &amp; Electronic<br>Engineering</div>
     <div class="course-meta"><span>10220074 · Section 0</span><span>Instructor · Luo Haiyun</span></div>
     <div class="mode-tabs" role="group" aria-label="Practice mode"><button data-mode="official">Official homework</button><button data-mode="random">Random practice</button></div>
-    <a class="circuit-lab-link" href="circuit-lab.html">Circuit playground ↗</a>
+    <a class="circuit-lab-link" href="learn.html">Start with the basics →</a><a class="circuit-lab-link" href="hw3.html">Homework 03 →</a><a class="circuit-lab-link" href="circuit-lab.html">Circuit playground ↗</a>
     <label class="homework-selector" for="homework-select">Homework<select id="homework-select"></select></label>
     <div class="nav-heading"><span id="set-name">Circuit fundamentals</span><span id="set-progress"></span></div>
     <nav id="exercise-nav" aria-label="Exercises"></nav>
@@ -30,7 +30,7 @@
   <div class="workspace">
     <header class="topbar"><a class="breadcrumb" href="#homework" data-home-link>All homework</a><div class="top-actions"><span id="total-progress"></span><a id="print-worksheet" class="text-button" href="worksheet.html" target="_blank" rel="noopener">Print / PDF</a><button id="shuffle" class="text-button" title="Choose another exercise">↝ Shuffle</button></div></header>
     <main id="main" tabindex="-1">
-      <section id="homework-overview" hidden aria-labelledby="course-heading"><div class="eyebrow">TSINGHUA UNIVERSITY · 10220074</div><h1 id="course-heading">Electrical &amp; Electronic Engineering</h1><p class="overview-meta">Instructor · Luo Haiyun</p><div class="overview-heading"><h2>Homework</h2><span id="overview-mode"></span></div><div id="homework-grid"></div><p class="site-credit">Independent course practice.</p></section>
+      <section id="homework-overview" hidden aria-labelledby="course-heading"><div class="eyebrow">TSINGHUA UNIVERSITY · 10220074</div><h1 id="course-heading">Electrical &amp; Electronic Engineering</h1><p class="overview-meta">Instructor · Luo Haiyun</p><section class="study-entry"><h2>Build up to the homework</h2><p>One concept, a small worked example, then a quick check. Start with AC if you have finished HW02.</p><a href="learn.html">Start with the basics →</a><a href="learn.html#waves">AC refresher →</a></section><div class="overview-heading"><h2>Homework</h2><span id="overview-mode"></span></div><div id="homework-grid"></div><p class="site-credit">Independent course practice.</p></section>
       <div id="exercise-page" hidden>
       <div class="page-heading"><div><div class="eyebrow" id="eyebrow"></div><h1 id="title"></h1></div><div class="position" id="position"></div></div>
       <div class="progress-track"><div id="progress-fill"></div></div>

@@ -18,7 +18,7 @@
   function courseNavigation(){
     if(current)$('open-playground').href=ExercisePlaygrounds.url(current);
     $('print-worksheet').href='worksheet.html?'+new URLSearchParams({homework:String(current?.set||1),mode,...(mode==='random'&&current?{seed:String(current.seed)}:{})});
-    $('homework-select').innerHTML='<option value="">All homework</option>'+Course.sets().map(h=>`<option value="${h.id}" ${h.questions.length?'':'disabled'}>${h.title}${h.questions.length?'':' · Not added yet'}</option>`).join('');
+    $('homework-select').innerHTML='<option value="">All homework</option>'+Course.sets().map(h=>`<option value="${h.id}" ${h.questions.length||h.href?'':'disabled'}>${h.title}${h.questions.length||h.href?'':' · Not added yet'}</option>`).join('');
     $('homework-select').value=current?String(current.set):'';
     document.querySelectorAll('[data-mode]').forEach(b=>{const yes=b.dataset.mode===mode;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',yes);});
     $('total-progress').textContent=mode==='official'?`${Questions.filter(q=>store.records[q.id]?.solved).length} / ${Questions.length} solved`:`${Object.values(store.randomRecords).filter(r=>r.solved).length} drills solved`;
@@ -29,6 +29,7 @@
     document.title=Course.title;courseNavigation();
     $('overview-mode').textContent=mode==='official'?'Official homework':'Random practice';
     $('homework-grid').innerHTML=Course.sets().map(h=>{
+      if(h.href)return `<a class="homework-card" href="${h.href}"><span class="homework-number">${String(h.id).padStart(2,'0')}</span><h3>${h.title}</h3><p>${esc(h.topic)}</p><div class="homework-card-footer"><span>${h.count} official exercises · guided solutions</span><span>→</span></div></a>`;
       if(!h.questions.length)return `<article class="homework-card unavailable"><span class="homework-number">${String(h.id).padStart(2,'0')}</span><h3>${h.title}</h3><p>Not added yet</p></article>`;
       const solved=h.questions.filter(q=>(mode==='official'?store.records[q.id]:store.randomRecords[q.id+':'+seedFor(q.id)])?.solved).length;
       return `<a class="homework-card" href="#${path(h.questions[0].id)}"><span class="homework-number">${String(h.id).padStart(2,'0')}</span><h3>${h.title}</h3><p>${esc(h.topic)}</p><div class="homework-card-footer"><span>${h.questions.length} exercises · ${solved} solved</span><span aria-hidden="true">→</span></div></a>`;
@@ -164,7 +165,7 @@
   document.querySelectorAll('[data-working]').forEach(b=>b.addEventListener('click',()=>{store.working=b.dataset.working;showStep(stepIndex);}));
   document.querySelectorAll('[data-mode]').forEach(b=>b.addEventListener('click',()=>go(current?.id||'homework',b.dataset.mode)));
   document.querySelectorAll('[data-home-link]').forEach(a=>a.addEventListener('click',e=>{e.preventDefault();go('homework');}));
-  $('homework-select').addEventListener('change',e=>{const q=Questions.find(q=>q.set===Number(e.target.value));go(q?.id||'homework');});
+  $('homework-select').addEventListener('change',e=>{const set=Course.sets().find(h=>h.id===Number(e.target.value));if(set?.href){location.href=set.href;return;}const q=Questions.find(q=>q.set===Number(e.target.value));go(q?.id||'homework');});
   $('new-numbers').addEventListener('click',newNumbers);
   $('next').addEventListener('click',next);
   $('previous').addEventListener('click',()=>go(Questions[Math.max(0,Questions.findIndex(q=>q.id===current.id)-1)].id));

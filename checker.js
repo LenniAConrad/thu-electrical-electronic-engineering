@@ -44,7 +44,7 @@ const Checker=(()=>{
   function numeric(raw,unit){
     let s=String(raw).trim();
     // Optional units are converted into the unit printed beside the input.
-    const families={A:{A:1,mA:.001,'µA':1e-6,uA:1e-6},V:{V:1,mV:.001,kV:1000},'Ω':{'Ω':1,ohm:1,'kΩ':1000,kohm:1000,'MΩ':1e6},Hz:{Hz:1,kHz:1000},W:{W:1,mW:.001},'°':{'°':1,deg:1},'rad/s':{'rad/s':1}};
+    const families={A:{A:1,mA:.001,'µA':1e-6,uA:1e-6},V:{V:1,mV:.001,kV:1000},'Ω':{'Ω':1,ohm:1,'kΩ':1000,kohm:1000,'MΩ':1e6},Hz:{Hz:1,kHz:1000},W:{W:1,mW:.001},F:{F:1,mF:.001,'μF':1e-6,'µF':1e-6,uF:1e-6,nF:1e-9},H:{H:1,mH:.001,'μH':1e-6,'µH':1e-6,uH:1e-6},VA:{VA:1,kVA:1000},var:{var:1,kvar:1000},'°':{'°':1,deg:1},'rad/s':{'rad/s':1}};
     let group=Object.values(families).find(g=>Object.hasOwn(g,unit)),factor=1;
     if(group){
       const keys=Object.keys(group).sort((a,b)=>b.length-a.length);

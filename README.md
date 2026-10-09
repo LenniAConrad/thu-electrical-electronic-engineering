@@ -1,6 +1,6 @@
 # THU Electrical & Electronic Engineering
 
-Independent course-practice website for Electrical and Electronic Engineering homework 1 and 2, course 10220074 (section 0), instructor Luo Haiyun. Instructor information comes from the introductory lecture slides; Wang Peng is listed separately as the experiments supervisor.
+Independent course-practice website for Electrical and Electronic Engineering homework 1–3, course 10220074 (section 0), instructor Luo Haiyun. Instructor information comes from the introductory lecture slides; Wang Peng is listed separately as the experiments supervisor.
 
 [Live website](https://LenniAConrad.github.io/thu-electrical-electronic-engineering/) · [GitHub repository](https://github.com/LenniAConrad/thu-electrical-electronic-engineering)
 
@@ -87,3 +87,13 @@ Every exercise has **Open in playground**, carrying its official values or exact
 Adaptations are stated above the drawing: boundary current sources close the fragment in HW1 question 1; illustrative component values realize the current-only KCL problem; symbolic networks receive example values; the black box uses its derived Thévenin equivalent; and unknown/open loads receive labeled test values. No internal black-box topology is asserted. The two AC exercises open a phasor/waveform playground with editable givens, phase comparison, and a time slider. They are not modeled as DC circuits.
 
 `node test-exercise-playgrounds.cjs` checks 2,828 official/seeded exercise and subcircuit models against homework quantities, loaded equivalents, switch states, and AC reconstruction. `python test-exercise-playgrounds.py` checks every link in both modes, diagram labels/arrows, editing/reset, saved circuit isolation, AC controls, offline use, and narrow layouts. New exercises also need an adapter in `exercise-playgrounds.js` and matching tests.
+
+## Foundations, HW03 and typeset equations (2026-10-09)
+
+`learn.html` adds nine short topics: Ohm’s law, KCL, Thévenin, reading sine waves, phasors, inductors, capacitors, series impedance and AC power. Each follows concept → small worked example → independent quick check → related homework. Hints and explanations are separate; an assisted answer does not earn a new independent pass. The inductor/capacitor topics include a time slider and normalized voltage/current waveforms. Progress uses `eee-foundations-v1`, independently of existing homework progress.
+
+`hw3.html` covers official exercises 1.14, 1.16, optional 1.17, 2.3, 2.4 and 2.5. The latter two are marked as deferrable exactly as the source sheet states. It includes redrawn circuits, numerical answer checks, worked steps and the 2.4 solution phasor diagram. The drawing itself is checked by the learner, not automatically graded. HW03 is official-only; randomized exercises and the existing 25-card progress remain HW01–02. HW03 uses a separate `eee-hw3-v1` storage key. The course overview and selector link to it in either mode, explicitly labelled official. No existing progress keys change.
+
+Local KaTeX 0.16.22 assets and fonts in `assets/katex/` render the circuit playground’s generated equations, all 22 formula-reference groups, phasor formulas, foundations and HW03 solutions. No CDN connection is required. License is included. `math-render.js` translates the playground’s bounded arithmetic notation to fractions/subscripts without evaluating expressions. `checker.js` additionally accepts capacitance, inductance and apparent/reactive-power units.
+
+`node test-hw3.cjs` independently reconstructs all three DC networks, verifies AC KVL and power identities, checks unit conversion and typesetting. Browser QA checks foundations, all HW03 forms, independent/assisted progress, desktop/mobile layouts, offline behavior and existing playgrounds. Source sheet and lecture PDFs are kept outside the published repository.
