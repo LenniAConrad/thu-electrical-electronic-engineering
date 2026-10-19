@@ -106,14 +106,12 @@ Local KaTeX 0.16.22 assets and fonts in `assets/katex/` render the circuit playg
 
 `node test-hw3.cjs` independently reconstructs all three DC networks, verifies AC KVL and power identities, checks unit conversion and typesetting. Browser QA checks foundations, all HW03 forms, independent/assisted progress, desktop/mobile layouts, offline behavior and existing playgrounds. Source sheet and lecture PDFs are kept outside the published repository.
 
-## Slide-aligned lecture reader (2026-10-19)
+## Native lecture reader (2026-10-19)
 
-The homepage now opens `lectures.html`: nine theory/lab chapters, 60 topics, searchable lecture text, equations, in-topic experiments and questions, and the detailed source figures. It covers the current circuit theory, DC methods, sinusoidal AC, AC network/power, harmonics, resonance/filter, and laboratory slide sets. The nine earlier foundation exercises remain at `learn.html` as supplementary practice.
+The homepage opens `lectures.html`: nine theory/lab chapters and 60 topics with searchable prose, equations, worked examples, native SVG diagrams, calculated graphs, experiments and questions. The earlier nine foundation exercises remain at `learn.html` as supplementary practice. No slide screenshots or copied teaching images are published.
 
-All 554 source pages are accounted for in `content/source-coverage.json`; 516 academic pages from the preferred and overlapping versions are retained as figures. Administrative/contact, outline and closing pages are classified separately. Use the **Diagrams, derivations and lecture questions** disclosure within each topic for complete worked material; **Other lecture versions** preserves overlapping uploads. Click a figure for full-size reading. Source corrections appear under **WARNING**.
+The content follows the uploaded circuit theory, DC, sinusoidal AC, AC power, harmonics, resonance/filter and laboratory decks. Repeated versions are consolidated; source references are tracked locally in `content/source-coverage.json`. Source errors are explicitly corrected under **WARNING**. The mapping records provenance rather than guaranteeing examination coverage. See `content/README.md` for editing and verification details.
 
-The lecture and foundation readers retain answers and controls only in the tab session and display no completion counts. Their old local-storage records are not read, migrated or erased. Existing homework/editor storage is preserved. Playback starts on demand, with previous/next/replay controls, reduced-motion support and automatic pausing on navigation, disclosure opening, hidden tabs or offscreen experiments.
+The reading layout uses a white background, purple navigation and teal experiments. Reading position and controls use current-tab session storage. Navigation retains topic controls; playback starts only on request. Print lecture prepares the whole current chapter and restores the prior reader state afterward. The homepage credits Luo Haiyun with his official portrait and Tsinghua profile links; `assets/ATTRIBUTIONS.json` records the portrait source.
 
-**Print lecture** prepares all topics, source versions and diagrams in the selected lecture before opening print, then restores the current topic. From the all-lectures view it prepares the entire course. This includes many figures; use an individual lecture when a smaller printout is wanted.
-
-Run `npm run test:interface` and the existing numerical suites before publishing. See `content/README.md` for source coverage, generation and validation limits.
+Run `npm run test:interface` for interface and independently reconstructed numerical examples. The native SVG diagrams were rendered and inspected with Inkscape. A connected browser was unavailable for this update, so browser layout and print pagination remain visually unverified.

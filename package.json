@@ -1,6 +1,10 @@
 {
   "name": "thu-electrical-electronic-engineering",
   "private": true,
-  "scripts": {"test:interface": "node scripts/build-lecture-content.cjs --check && node test-reader.cjs && node test-lectures.cjs"},
-  "devDependencies": {"jsdom": "26.1.0"}
+  "scripts": {
+    "test:interface": "node scripts/build-lecture-content.cjs --check && node test-reader.cjs && node test-lectures.cjs && node test-lecture-numerics.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "26.1.0"
+  }
 }

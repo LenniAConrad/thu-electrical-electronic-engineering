@@ -50,473 +50,520 @@
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "models"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "models"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "sources"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "references"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "dc-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "dc-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-basics",
             "topic": "dc-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-current"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-current"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-current"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-voltage"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-voltage"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "kirchhoff-voltage"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 47,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "source-transformation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
@@ -576,553 +623,579 @@
       },
       {
         "page": 10,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 10
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 11
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 12
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 13
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 14
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 15
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 16
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 17
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 18
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 19
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 20
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 21
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 22
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 23
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 24
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 25
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 26
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 27
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 28
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 29
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 30
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 31
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 32
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 33
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 34
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 36
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 38
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 39
         },
         "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "topology"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "branch-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 47,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "circuit-laws",
             "topic": "loop-mesh"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 58,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 59,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 60,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 61,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "supernodes"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 62,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "supernodes"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 63,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "supernodes"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 64,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "basic",
           "page": 56
         },
         "reason": "Repeated closing content summary.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 65,
@@ -1147,413 +1220,454 @@
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "potential"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "potential"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "potential"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "nodal"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "superposition"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "maximum-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "thevenin-norton"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "star-delta"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "star-delta"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "star-delta"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "star-delta"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "homogeneity"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "homogeneity"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "homogeneity"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "homogeneity"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "homogeneity"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
@@ -1583,103 +1697,103 @@
       },
       {
         "page": 4,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 3
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 4
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 5
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 6
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 7
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 8
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 9
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 10
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 11
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "dc",
           "page": 12
         },
         "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
@@ -1694,63 +1808,69 @@
     "pages": [
       {
         "page": 1,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 2,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "equivalent-resistance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "dc-methods",
             "topic": "star-delta"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
@@ -1759,713 +1879,784 @@
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "sinusoids"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "phasor-representation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "complex-arithmetic"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 47,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "resistor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 58,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 59,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 60,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "inductor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 61,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 62,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 63,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 64,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 65,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 66,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 67,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 68,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 69,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 70,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 71,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 72,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "capacitor-ac"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 73,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 74,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 75,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 76,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 77,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 78,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "sinusoidal-ac",
             "topic": "rlc-summary"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   },
@@ -2475,63 +2666,63 @@
     "pages": [
       {
         "page": 1,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 1
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 2,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 2
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 3,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 3
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 4
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 5
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 6
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
@@ -2540,713 +2731,713 @@
       },
       {
         "page": 8,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 8
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 9
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 10
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 11
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 12
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 13
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 14
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 15
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 16
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 17
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 18
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 19
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 20
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 21
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 22
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 23
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 24
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 25
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 26
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 27
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 28
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 29
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 30
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 31
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 32
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 33
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 34
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 35
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 36
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 37
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 38
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 39
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 40
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 41
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 42
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 43
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 44
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 45
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 46
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 47,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 47
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 48
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 49
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 50
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 51
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 52
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 53
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 54
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 55
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 56
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 57
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 58,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 58
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 59,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 59
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 60,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 60
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 61,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 61
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 62,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 62
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 63,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 63
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 64,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 64
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 65,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 65
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 66,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 66
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 67,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 67
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 68,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 68
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 69,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 69
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 70,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 70
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 71,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 71
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 72,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 72
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 73,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 73
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 74,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 74
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 75,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 75
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 76,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 76
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 77,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 77
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 78,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 78
         },
         "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   },
@@ -3261,703 +3452,703 @@
       },
       {
         "page": 2,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 8
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 3,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 9
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 10
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 11
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 12
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 13
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 14
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 15
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 16
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 17
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 18
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 19
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 20
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 21
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 22
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 23
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 24
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 25
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 26
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 27
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 28
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 29
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 30
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 31
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 32
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 33
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 34
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 35
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 36
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 37
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 38
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 39
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 41
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 42
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 43
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 44
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 45
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 46
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 47
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 48
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 49
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 50
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 51
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 52
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 53
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 47,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 54
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 55
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 56
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 57
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 58
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 59
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 60
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 61
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 62
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 63
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 64
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 58,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 65
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 59,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 66
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 60,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 67
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 61,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 68
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 62,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 69
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 63,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 70
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 64,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 71
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 65,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 72
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 66,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 73
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 67,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 74
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 68,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 75
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 69,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 76
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 70,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 77
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 71,
-        "status": "parallel-version",
+        "status": "mapped-source",
         "equivalent": {
           "deck": "ac-basics",
           "page": 78
         },
         "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
-        "retained": true
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   },
@@ -3972,443 +4163,487 @@
       },
       {
         "page": 2,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rl-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "rlc-series"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "impedance-networks"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-analysis"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "ac-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "power-factor"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "power-factor"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "power-factor"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "ac-networks",
             "topic": "compensation"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 46,
@@ -4417,203 +4652,223 @@
       },
       {
         "page": 47,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "periodic-waveforms"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 48,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "periodic-waveforms"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 49,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "periodic-waveforms"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 50,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "periodic-waveforms"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 51,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "periodic-waveforms"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 52,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "fourier"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 53,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "fourier"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 54,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "fourier"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 55,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "fourier"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 56,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "fourier"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 57,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 58,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 59,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 60,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-power"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 61,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 62,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 63,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 64,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 65,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-rms-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 66,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "periodic-signals",
             "topic": "harmonic-rms-example"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   },
@@ -4633,423 +4888,465 @@
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "series-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "quality-bandwidth"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "quality-bandwidth"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "quality-bandwidth"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "quality-bandwidth"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "resonance-worked"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "resonance-worked"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "tuning"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "tuning"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "tuning"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "tuning"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "quality-bandwidth"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 21,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 22,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 23,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 24,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 25,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 26,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "parallel-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 27,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "mixed-resonance"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 28,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "transfer-functions"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 29,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "transfer-functions"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 30,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "low-high-pass"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 31,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "low-high-pass"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 32,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "low-high-pass"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 33,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "low-high-pass"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 34,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "low-high-pass"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 35,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "filter-bode"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 36,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "filter-bode"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 37,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "filter-bode"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 38,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "filter-bode"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 39,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 40,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 41,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 42,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 43,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 44,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "resonance-filters",
             "topic": "frequency-examples"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 45,
@@ -5074,183 +5371,201 @@
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-report"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-controls"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "board"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "measure-dc"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 17,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "measure-thevenin"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 18,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "measure-dc"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 19,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "measure-phase"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 20,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-instruments",
             "topic": "instrument-report"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   },
@@ -5265,153 +5580,168 @@
       },
       {
         "page": 2,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 3,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 4,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 5,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 6,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 7,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 8,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 9,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-instruments"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 10,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-setup"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 11,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-setup"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 12,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-setup"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 13,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "frequency-sweep"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 14,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "change-components"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 15,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-report"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       },
       {
         "page": 16,
-        "status": "included",
+        "status": "mapped-source",
         "sections": [
           {
             "lecture": "lab-resonance",
             "topic": "resonance-report"
           }
-        ]
+        ],
+        "presentation": "Reflowed topic text and authored diagrams; no slide image published."
       }
     ]
   }

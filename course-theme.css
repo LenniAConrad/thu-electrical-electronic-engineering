@@ -48,12 +48,39 @@ body{font-size:1rem}button:hover{background:#f3eef9;border-color:#b9a4d1}.primar
 .lecture-outline{display:grid;margin:15px 0}.lecture-outline a{display:flex;gap:16px;align-items:center;min-height:46px;border-bottom:1px solid #edf0f4;padding:10px}.lecture-outline a[aria-current]{background:#f3eef9}.lecture-outline span{color:var(--muted);font-size:.8rem;min-width:1.4em}
 .lecture-tools{display:flex;align-items:center;gap:18px;margin-block:22px}.lecture-tools button{font-size:.85rem}.lecture-tools [role=status]{font-size:.8rem;color:var(--muted)}
 .lecture-equation{overflow-x:auto;max-width:100%;margin:22px 0;padding:4px 0}.lecture-equation .katex-display{margin:.6em 0}.lecture-topic>p{margin:20px 0}.lecture-topic>h2{scroll-margin-top:100px}
-.lecture-material{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:30px 0;padding:18px 0}.lecture-material>summary{cursor:pointer;font-weight:600;line-height:1.7;color:#47556a}.lecture-material>summary span{font-weight:400;color:var(--muted)}
-.lecture-figure{margin:28px 0}.lecture-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#f8fafb}.lecture-figure figcaption{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:.75rem;color:var(--muted)}.lecture-figure figcaption a{min-height:36px;display:inline-flex;align-items:center}
 .lecture-choices{display:grid;gap:10px}.lecture-choices button{text-align:left}.lecture-choices button[aria-pressed=true]{border-color:var(--accent);background:#f3eef9}.lecture-check details{margin-top:20px}.lecture-check summary{cursor:pointer}
 .print-preparing{padding:20px;background:#f3eef9}.printing-lecture>.lecture-topic{margin-top:32px}
-@media print{.lecture-tools,.lecture-shell>.course-header,.lecture-search,.print-preparing,.lecture-figure figcaption a{display:none!important}.lecture-material{border:0}.lecture-material>summary{display:none}.lecture-figure{break-inside:avoid}.lecture-figure img{max-height:220mm;object-fit:contain}.lecture-topic>h2{break-after:avoid}.lecture-topic .lesson-footer{display:none}.printing-lecture>h1{break-before:page}.lecture-topic .lecture-check details{display:block}}
+@media print{.lecture-tools,.lecture-shell>.course-header,.lecture-search,.print-preparing{display:none!important}.lecture-topic>h2{break-after:avoid}.lecture-topic .lesson-footer{display:none}.printing-lecture>h1{break-before:page}.lecture-topic .lecture-check details{display:block}}
 
 .course-loading{position:fixed;inset:0;min-height:100dvh;background:white;z-index:50}
 
 .learning-preview>svg text{font-size:22px}
+/* Reflowed lecture content and authored vector diagrams. */
+.native-figure{margin:30px 0 24px;border:1px solid #e2e7ec;border-radius:10px;background:#fff;overflow:hidden}
+.native-drawing{overflow-x:auto;padding:14px 4px;color:#344354;scrollbar-width:thin}
+.native-drawing:focus-visible{outline:2px solid #785297;outline-offset:-3px}
+.native-drawing svg{display:block;width:100%;min-width:560px;height:auto}
+.native-drawing svg text{font:17px system-ui,sans-serif;fill:#344354;stroke:none}
+.native-figure figcaption{padding:15px 20px;background:#f8fafb;font-size:.92rem;line-height:1.7;color:#526174;border-top:1px solid #e6eaee}
+.native-figure figcaption strong{color:#304154;font-weight:600}
+.plot-legend{display:flex;flex-wrap:wrap;gap:10px 22px;list-style:none;padding:0!important;margin:-12px 0 28px!important;font-size:.88rem}
+.plot-legend li{display:flex;align-items:center;gap:10px;margin:0!important}
+.plot-legend span{width:28px;flex-shrink:0;border-top:3px solid var(--curve)}
+.plot-legend span.dashed{border-top-style:dashed}
+.lecture-table-wrap{overflow-x:auto;margin:24px 0;scrollbar-width:thin}
+.lecture-table-wrap table{width:100%;border-collapse:collapse;font-size:.93rem;line-height:1.65}
+.lecture-table-wrap caption{text-align:left;color:#627185;padding-bottom:12px}
+.lecture-table-wrap th,.lecture-table-wrap td{padding:13px 16px;border-bottom:1px solid #e3e8ed;text-align:left;vertical-align:top}
+.lecture-table-wrap thead th{font-weight:600;background:#f4f8f9;color:#304154}
+.lecture-table-wrap tbody th{font-weight:500;min-width:95px}
+.lecture-worked{margin:34px 0}.lecture-worked h3{font-size:1.2rem;color:#344354;margin:0 0 16px;line-height:1.45}
+.landing-professor{display:flex!important;gap:18px;align-items:flex-start;padding:28px 0 0!important;margin:0!important;border-top:1px solid #e3e8ed}
+.landing-professor img{width:68px;height:68px;flex:0 0 68px;border:1px solid #e2e7ec;border-radius:50%;object-fit:cover;object-position:center 25%}
+.landing-professor>div{min-width:0}.landing-professor>div>span{display:block;color:#728198;font-size:.77rem;margin-bottom:4px}
+.landing-professor strong{display:block;color:#2e3b50;font-size:1.05rem;font-weight:650}
+.landing-professor p{font-size:.78rem;line-height:1.8;margin:5px 0 0;color:#728198}
+.landing-professor a{color:inherit;text-decoration:underline;text-underline-offset:3px;text-decoration-color:#c7bacd}
+.landing-professor .faculty-links{display:flex;flex-wrap:wrap;gap:20px;margin-top:12px}
+.landing-professor .faculty-links a{display:inline-flex;align-items:center;min-height:32px;color:#785297;font-size:.8rem}
+@media(max-width:600px){.landing-professor{gap:13px}.landing-professor img{width:56px;height:56px;flex-basis:56px}.native-figure figcaption{padding:13px 15px}}
+@media print{.native-drawing{overflow:visible;padding:0}.native-drawing svg{min-width:0;max-width:100%}.native-figure{break-inside:avoid}.lecture-table-wrap{overflow:visible}.lecture-table-wrap table{font-size:9pt}.plot-legend{font-size:9pt}.lecture-worked h3{break-after:avoid}}
