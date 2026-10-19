@@ -1,5 +1,13 @@
 # THU Electrical & Electronic Engineering
 
+The course now follows the Introduction to AI site's reading interface: white pages, purple navigation, teal experiments, a shared top navigation, and a focused topic reader. The homepage starts with a resistor experiment and a prediction about a new voltage. **Topics** opens the grouped course map; **Practice** opens the original homework engine; **Playground** opens the DC editor.
+
+All nine learning topics have an inline experiment. Each topic connects a concept, a formula, an experiment, a worked example, a quick check and related homework. Answers, assistance state and experiment settings survive navigation and reloads. A Continue link returns to the last topic, and **Read the full course** puts all topics on one page. Existing homework and editor storage keys are preserved.
+
+HW03 supports one question at a time, Previous/Next navigation, a full-question view, and paged worked calculations. The main homework count includes independent HW03 checks. HW03 remains official-only; randomized practice and worksheet generation cover HW01–02.
+
+Run `npm ci` then `npm run test:interface` for DOM integration checks covering the homepage, legacy routes, topic experiments, saved answers, HW03 and editor initialization. These supplement the independent numerical checks below; they do not replace rendered desktop/mobile or print QA. JavaScript dependencies are used only for testing, never by the published site.
+
 Independent course-practice website for Electrical and Electronic Engineering homework 1–3, course 10220074 (section 0), instructor Luo Haiyun. Instructor information comes from the introductory lecture slides; Wang Peng is listed separately as the experiments supervisor.
 
 [Live website](https://LenniAConrad.github.io/thu-electrical-electronic-engineering/) · [GitHub repository](https://github.com/LenniAConrad/thu-electrical-electronic-engineering)
@@ -66,7 +74,7 @@ Progress is saved locally in the browser. The public website and localhost have 
 
 ## Adding homework
 
-The overview and homework selector come from `Course.sets()` in `course.js`. Homework 3 and 4 are placeholders until exercises are added; later homework numbers are discovered from the question bank automatically.
+The overview and homework selector come from `Course.sets()` in `course.js`. Homework 3 links to its separate official exercise reader; homework 4 is a placeholder until exercises are added; later homework numbers are discovered from the question bank automatically.
 
 1. Add questions to `questions.js` using IDs such as `h3-1`. The homework number is derived from the ID.
 2. Add the corresponding circuit SVG in `circuits.js`.

@@ -15,18 +15,24 @@
   const fmt=PracticeModels.fmt;
   const answerText=f=>f.type==='choice'?f.options.find(o=>o[0]===String(f.answer))[1]:typeof f.answer==='number'?fmt(f.answer)+(f.unit?' '+f.unit:''):f.answer;
   function activeStep(){return store.working==='steps'?current.steps[stepIndex]:null;}
+  function homeworkProgress(){
+    let hw3={};try{hw3=JSON.parse(localStorage.getItem('eee-hw3-v1')||'{}')||{};}catch{}
+    const extra=['p114','p116','p117','p23','p24','p25'].filter(id=>hw3[id]?.passed).length;
+    return `${Questions.filter(q=>store.records[q.id]?.solved).length+extra} / ${Questions.length+6} homework checks passed`;
+  }
   function courseNavigation(){
     if(current)$('open-playground').href=ExercisePlaygrounds.url(current);
     $('print-worksheet').href='worksheet.html?'+new URLSearchParams({homework:String(current?.set||1),mode,...(mode==='random'&&current?{seed:String(current.seed)}:{})});
     $('homework-select').innerHTML='<option value="">All homework</option>'+Course.sets().map(h=>`<option value="${h.id}" ${h.questions.length||h.href?'':'disabled'}>${h.title}${h.questions.length||h.href?'':' · Not added yet'}</option>`).join('');
     $('homework-select').value=current?String(current.set):'';
     document.querySelectorAll('[data-mode]').forEach(b=>{const yes=b.dataset.mode===mode;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',yes);});
-    $('total-progress').textContent=mode==='official'?`${Questions.filter(q=>store.records[q.id]?.solved).length} / ${Questions.length} solved`:`${Object.values(store.randomRecords).filter(r=>r.solved).length} drills solved`;
+    $('total-progress').textContent=mode==='official'?homeworkProgress():`${Object.values(store.randomRecords).filter(r=>r.solved).length} drills solved`;
   }
   function overview(){
     current=null;finished=true;$('exercise-page').hidden=true;$('homework-overview').hidden=false;
     $('exercise-nav').hidden=true;document.querySelector('.nav-heading').hidden=true;$('shuffle').hidden=true;
     document.title=Course.title;courseNavigation();
+    $('practice-navigation').open=true;
     $('overview-mode').textContent=mode==='official'?'Official homework':'Random practice';
     $('homework-grid').innerHTML=Course.sets().map(h=>{
       if(h.href)return `<a class="homework-card" href="${h.href}"><span class="homework-number">${String(h.id).padStart(2,'0')}</span><h3>${h.title}</h3><p>${esc(h.topic)}</p><div class="homework-card-footer"><span>${h.count} official exercises · guided solutions</span><span>→</span></div></a>`;
@@ -41,7 +47,7 @@
     courseNavigation();
     document.querySelectorAll('[data-working]').forEach(b=>{const yes=b.dataset.working===store.working;b.classList.toggle('active',yes);b.setAttribute('aria-pressed',yes);});
     $('set-name').textContent=Course.sets().find(h=>h.id===current.set)?.topic||'Exercises';$('set-progress').textContent=`${done} / ${items.length}`;
-    $('total-progress').textContent=mode==='official'?`${Questions.filter(q=>store.records[q.id]?.solved).length} / ${Questions.length} solved`:`${Object.values(store.randomRecords).filter(r=>r.solved).length} drills solved`;
+    $('total-progress').textContent=mode==='official'?homeworkProgress():`${Object.values(store.randomRecords).filter(r=>r.solved).length} drills solved`;
     $('progress-fill').style.width=`${done/items.length*100}%`;
     $('step-nav').hidden=store.working!=='steps';
     $('step-nav').innerHTML=current.steps.map((s,i)=>`<button data-step="${i}" class="${i===stepIndex?'active':''} ${record().stepsPassed[i]?'passed':''}" ${i===stepIndex?'aria-current="step"':''}><span>${record().stepsPassed[i]?'✓':i+1}</span>${esc(s.title)}</button>`).join('');
@@ -85,6 +91,9 @@
     if(scroll)$('step-nav').scrollIntoView({block:'start',behavior:'smooth'});
   }
   function render(route){
+    const home=!route||route==='/';
+    document.body.dataset.page=home?'home':'practice';$('course-landing').hidden=!home;$('practice-navigation').hidden=home;document.querySelector('.topbar').hidden=home;
+    if(home){current=null;finished=true;$('homework-overview').hidden=true;$('exercise-page').hidden=true;CourseLanding.mount($('course-landing'));document.title=Course.title;return;}
     const parts=String(route||'').split('/');mode=parts[0]==='random'?'random':'official';
     if(!route||route==='homework'||route==='random/homework'){overview();return;}
     $('exercise-page').hidden=false;$('homework-overview').hidden=true;$('exercise-nav').hidden=false;document.querySelector('.nav-heading').hidden=false;$('shuffle').hidden=false;
@@ -179,7 +188,7 @@
     $('solution').className='solution';$('solution').innerHTML=`<h3>${activeStep()?'This step':'Solution'}</h3><ul>${answers.map(f=>`<li><strong>${esc(f.label)}:</strong> <span class="formula">${esc(answerText(f))}</span></li>`).join('')}</ul>${activeStep()?'<div class="diagram solution-diagram">'+StepVisuals.render(current,activeStep(),allDraft,{},false)+'</div>':''}<p>${current.solution}</p>`;
     $('solution').hidden=false;$('reveal').textContent='Hide solution';navigation();save();
   });
-  $('reset-progress').addEventListener('click',()=>{if(!confirm('Reset all saved answers and progress for both modes?'))return;store.records={};store.randomRecords={};save();render(path());});
+  $('reset-progress').addEventListener('click',()=>{if(!confirm('Reset HW01–02 answers and progress for both modes? HW03 and topic checks are kept.'))return;store.records={};store.randomRecords={};save();render(path());});
   $('given-circuit').addEventListener('click',()=>{showGiven=!showGiven;$('given-circuit').textContent=showGiven?'Step diagram':'Given circuit';draw();});
   $('enlarge').addEventListener('click',()=>{$('large-diagram').innerHTML=showGiven?'<div class="circuit-canvas">'+current.diagram()+'</div>':StepVisuals.render(current,activeStep(),record().draft,results);$('diagram-dialog').showModal();});
   $('close-diagram').addEventListener('click',()=>$('diagram-dialog').close());
@@ -187,5 +196,5 @@
   $('diagram-dialog').addEventListener('close',()=>{if(current)draw();});
   window.addEventListener('hashchange',()=>render(location.hash.slice(1)));
   setInterval(()=>{if(!finished&&current){const t=Math.floor((Date.now()-started)/1000);$('timer').textContent=`${Math.floor(t/60)}:${String(t%60).padStart(2,'0')}`;}},1000);
-  render(location.hash.slice(1)||'homework');
+  render(location.hash.slice(1));
 })();

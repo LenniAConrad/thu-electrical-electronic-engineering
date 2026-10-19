@@ -16,6 +16,10 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
+      - name: Install interface test dependencies
+        run: npm ci --ignore-scripts --no-audit --no-fund
+      - name: Check course interface
+        run: npm run test:interface
       - name: Check answers and generated exercises
         run: |
           node test-checker.cjs

@@ -1,0 +1,6 @@
+{
+  "name": "thu-electrical-electronic-engineering",
+  "private": true,
+  "scripts": {"test:interface": "node test-reader.cjs"},
+  "devDependencies": {"jsdom": "26.1.0"}
+}

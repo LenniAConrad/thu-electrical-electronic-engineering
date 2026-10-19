@@ -41,7 +41,7 @@ with sync_playwright() as p:
   assert page.evaluate('document.documentElement.scrollWidth <= innerWidth+1'),url
   if url.startswith('learn'):page.screenshot(path=str(out/'learning-mobile.png'),full_page=True)
  # No network dependencies for math or interactive learning.
- page.goto(BASE+'/learn.html#waves');page.context.set_offline(True);page.locator('a[href="#inductor"]').click();assert page.locator('.katex').count()>0
+ page.goto(BASE+'/learn.html#waves');page.context.set_offline(True);page.locator('#reader-outline summary').click();page.locator('a[href="#inductor"]').click();assert page.locator('.katex').count()>0
  # Failed answers, assisted attempts, retry, and storage survive a reload.
  page.context.set_offline(False)
  page.goto(BASE+'/learn.html#inductor')
@@ -60,7 +60,7 @@ with sync_playwright() as p:
  form.locator('button.primary').click();page.reload();assert '1 of 6' in page.inner_text('#hw-progress')
  page.set_viewport_size({'width':1440,'height':1100})
  for id in ['p114','p116','p117','p23','p24','p25']:
-  page.locator('#'+id).evaluate('(e)=>e.open=true');page.locator('#'+id+' .circuit-picture').first.screenshot(path=str(out/(id+'.png')))
+  page.goto(BASE+'/hw3.html#'+id);page.locator('#'+id).evaluate('(e)=>e.open=true');page.locator('#'+id+' .circuit-picture').first.screenshot(path=str(out/(id+'.png')))
  assert not errors,errors
  print('PASS: 9 learning checks, all 6 HW03 answer forms, KaTeX equations and 22 references, mobile widths, offline interaction, no browser errors')
  b.close()

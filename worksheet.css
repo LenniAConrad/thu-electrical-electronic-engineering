@@ -5,3 +5,5 @@
 @page{size:A4;margin:0}
 @media print{:root,body{background:white}.print-controls{display:none}#sheets{padding:0;overflow:visible}.sheet{margin:0;box-shadow:none;print-color-adjust:exact;-webkit-print-color-adjust:exact}.print-diagram .arrow-shaft{stroke:#354e43}.print-diagram .arrow-head{fill:#354e43}}
 .blank-group{grid-column:1/-1;font-size:9pt;font-weight:600;margin:1mm 0 0}.grouped-blanks{grid-template-columns:repeat(3,minmax(0,1fr))}
+
+@media print{.course-header,.course-footer,.course-skip{display:none!important}}

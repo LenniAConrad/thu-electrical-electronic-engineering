@@ -7,7 +7,7 @@ with sync_playwright() as p:
  browser=p.chromium.launch()
  page=browser.new_page(viewport={'width':1600,'height':1100},device_scale_factor=1)
  errors=[];page.on('pageerror',lambda e:errors.append(str(e)))
- page.goto(BASE)
+ page.goto(BASE+'#homework')
  expect(page.locator('#homework-overview')).to_be_visible()
  expect(page.locator('#homework-grid a')).to_have_count(3)
  expect(page.locator('#homework-grid .unavailable')).to_have_count(1)
@@ -16,7 +16,7 @@ with sync_playwright() as p:
  page.locator('#homework-select').select_option('2')
  expect(page.locator('#title')).to_have_text('Inside the circuit box')
  assert '#random/h2-1/' in page.url
- page.locator('.brand').click()
+ page.locator('.breadcrumb').click()
  expect(page.locator('#homework-overview')).to_be_visible()
  expect(page.locator('#overview-mode')).to_have_text('Random practice')
  page.locator('[data-mode=official]').click()
