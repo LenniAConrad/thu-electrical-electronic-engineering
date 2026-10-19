@@ -105,3 +105,15 @@ Adaptations are stated above the drawing: boundary current sources close the fra
 Local KaTeX 0.16.22 assets and fonts in `assets/katex/` render the circuit playground’s generated equations, all 22 formula-reference groups, phasor formulas, foundations and HW03 solutions. No CDN connection is required. License is included. `math-render.js` translates the playground’s bounded arithmetic notation to fractions/subscripts without evaluating expressions. `checker.js` additionally accepts capacitance, inductance and apparent/reactive-power units.
 
 `node test-hw3.cjs` independently reconstructs all three DC networks, verifies AC KVL and power identities, checks unit conversion and typesetting. Browser QA checks foundations, all HW03 forms, independent/assisted progress, desktop/mobile layouts, offline behavior and existing playgrounds. Source sheet and lecture PDFs are kept outside the published repository.
+
+## Slide-aligned lecture reader (2026-10-19)
+
+The homepage now opens `lectures.html`: nine theory/lab chapters, 60 topics, searchable lecture text, equations, in-topic experiments and questions, and the detailed source figures. It covers the current circuit theory, DC methods, sinusoidal AC, AC network/power, harmonics, resonance/filter, and laboratory slide sets. The nine earlier foundation exercises remain at `learn.html` as supplementary practice.
+
+All 554 source pages are accounted for in `content/source-coverage.json`; 516 academic pages from the preferred and overlapping versions are retained as figures. Administrative/contact, outline and closing pages are classified separately. Use the **Diagrams, derivations and lecture questions** disclosure within each topic for complete worked material; **Other lecture versions** preserves overlapping uploads. Click a figure for full-size reading. Source corrections appear under **WARNING**.
+
+The lecture and foundation readers retain answers and controls only in the tab session and display no completion counts. Their old local-storage records are not read, migrated or erased. Existing homework/editor storage is preserved. Playback starts on demand, with previous/next/replay controls, reduced-motion support and automatic pausing on navigation, disclosure opening, hidden tabs or offscreen experiments.
+
+**Print lecture** prepares all topics, source versions and diagrams in the selected lecture before opening print, then restores the current topic. From the all-lectures view it prepares the entire course. This includes many figures; use an individual lecture when a smaller printout is wanted.
+
+Run `npm run test:interface` and the existing numerical suites before publishing. See `content/README.md` for source coverage, generation and validation limits.

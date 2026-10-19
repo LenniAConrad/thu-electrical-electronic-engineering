@@ -45,11 +45,11 @@ with sync_playwright() as p:
  # Failed answers, assisted attempts, retry, and storage survive a reload.
  page.context.set_offline(False)
  page.goto(BASE+'/learn.html#inductor')
- page.evaluate("localStorage.removeItem('eee-foundations-v1')");page.reload()
+ page.evaluate("sessionStorage.removeItem('eee-reading-session-v2')");page.reload()
  page.fill('#quick-answer','999');page.locator('#quick-check button.primary').click();assert 'Not quite' in page.inner_text('#quick-feedback')
  page.click('#solution-button');page.fill('#quick-answer','100');page.locator('#quick-check button.primary').click();assert 'used the explanation' in page.inner_text('#quick-feedback')
- assert '0 of 9' in page.inner_text('#learning-progress')
- page.click('#try-again');page.fill('#quick-answer','100');page.locator('#quick-check button.primary').click();page.reload();assert '1 of 9' in page.inner_text('#learning-progress')
+ assert page.locator('#learning-progress').count()==0
+ page.click('#try-again');page.fill('#quick-answer','100');page.locator('#quick-check button.primary').click();page.reload();assert page.locator('#quick-answer').input_value()=='100';assert 'Correct' in page.inner_text('#quick-feedback')
  page.goto(BASE+'/hw3.html#p23');page.evaluate("localStorage.removeItem('eee-hw3-v1')");page.reload()
  page.locator('[data-solution="p23"]').evaluate('(e)=>e.open=true');page.wait_for_timeout(100)
  form=page.locator('[data-problem="p23"]');q=next(q for q in probs if q['id']=='p23')

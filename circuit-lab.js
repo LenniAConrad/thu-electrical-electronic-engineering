@@ -16,7 +16,7 @@
   }
   let circuit=example('divider'),tool='select',pending=null,selected={kind:'node',id:'n2'},result,drag=null,suppressClick=false;
   const reducedMotion=matchMedia('(prefers-reduced-motion: reduce)');
-  let flow,flowShown=true,flowPlaying=!reducedMotion.matches,flowSpeed=1,flowTime=0,flowFrame=null,flowLast=null,flowPaths=[];
+  let flow,flowShown=true,flowPlaying=false,flowSpeed=1,flowTime=0,flowFrame=null,flowLast=null,flowPaths=[];
   try{const data=JSON.parse(localStorage.getItem(key));if(data&&!exercise){CircuitSolver.validate(data);circuit=data;selected=null;}}catch{$('save-state').textContent='Using the example circuit';}
   function loadExercise(){
     $('exercise-source').hidden=false;
@@ -247,7 +247,8 @@
   $('show-flow').onchange=e=>{flowShown=e.target.checked;draw();};
   $('flow-play').onclick=()=>{flowPlaying=!flowPlaying;refreshFlow();};
   $('flow-speed').oninput=e=>{flowSpeed=Number(e.target.value);$('flow-speed-value').textContent=flowSpeed+'×';};
-  document.addEventListener('visibilitychange',refreshFlow);
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)flowPlaying=false;refreshFlow();});
+  if('IntersectionObserver' in window)new IntersectionObserver(entries=>{if(!entries[0].isIntersecting){flowPlaying=false;refreshFlow();}}).observe($('canvas'));
   reducedMotion.addEventListener('change',e=>{if(e.matches){flowPlaying=false;refreshFlow();}});
   render();
 })();

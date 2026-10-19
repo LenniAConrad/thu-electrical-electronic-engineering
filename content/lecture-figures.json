@@ -1,0 +1,2582 @@
+{
+  "basic:10": {
+    "src": "assets/lecture-material/basic-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:11": {
+    "src": "assets/lecture-material/basic-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:12": {
+    "src": "assets/lecture-material/basic-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:13": {
+    "src": "assets/lecture-material/basic-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:14": {
+    "src": "assets/lecture-material/basic-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:15": {
+    "src": "assets/lecture-material/basic-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:16": {
+    "src": "assets/lecture-material/basic-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:17": {
+    "src": "assets/lecture-material/basic-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:18": {
+    "src": "assets/lecture-material/basic-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:19": {
+    "src": "assets/lecture-material/basic-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:20": {
+    "src": "assets/lecture-material/basic-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:21": {
+    "src": "assets/lecture-material/basic-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:22": {
+    "src": "assets/lecture-material/basic-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:23": {
+    "src": "assets/lecture-material/basic-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:24": {
+    "src": "assets/lecture-material/basic-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:25": {
+    "src": "assets/lecture-material/basic-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:26": {
+    "src": "assets/lecture-material/basic-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:27": {
+    "src": "assets/lecture-material/basic-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:28": {
+    "src": "assets/lecture-material/basic-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:29": {
+    "src": "assets/lecture-material/basic-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:30": {
+    "src": "assets/lecture-material/basic-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:31": {
+    "src": "assets/lecture-material/basic-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:32": {
+    "src": "assets/lecture-material/basic-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:33": {
+    "src": "assets/lecture-material/basic-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:34": {
+    "src": "assets/lecture-material/basic-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:35": {
+    "src": "assets/lecture-material/basic-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:36": {
+    "src": "assets/lecture-material/basic-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:37": {
+    "src": "assets/lecture-material/basic-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:38": {
+    "src": "assets/lecture-material/basic-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:39": {
+    "src": "assets/lecture-material/basic-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:40": {
+    "src": "assets/lecture-material/basic-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:41": {
+    "src": "assets/lecture-material/basic-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:42": {
+    "src": "assets/lecture-material/basic-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:43": {
+    "src": "assets/lecture-material/basic-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:44": {
+    "src": "assets/lecture-material/basic-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:45": {
+    "src": "assets/lecture-material/basic-045.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:46": {
+    "src": "assets/lecture-material/basic-046.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:47": {
+    "src": "assets/lecture-material/basic-047.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:48": {
+    "src": "assets/lecture-material/basic-048.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:49": {
+    "src": "assets/lecture-material/basic-049.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:50": {
+    "src": "assets/lecture-material/basic-050.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:51": {
+    "src": "assets/lecture-material/basic-051.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:52": {
+    "src": "assets/lecture-material/basic-052.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:53": {
+    "src": "assets/lecture-material/basic-053.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:54": {
+    "src": "assets/lecture-material/basic-054.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:55": {
+    "src": "assets/lecture-material/basic-055.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "basic:56": {
+    "src": "assets/lecture-material/basic-056.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:38": {
+    "src": "assets/lecture-material/original-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:39": {
+    "src": "assets/lecture-material/original-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:40": {
+    "src": "assets/lecture-material/original-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:41": {
+    "src": "assets/lecture-material/original-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:42": {
+    "src": "assets/lecture-material/original-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:43": {
+    "src": "assets/lecture-material/original-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:44": {
+    "src": "assets/lecture-material/original-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:45": {
+    "src": "assets/lecture-material/original-045.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:46": {
+    "src": "assets/lecture-material/original-046.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:47": {
+    "src": "assets/lecture-material/original-047.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:48": {
+    "src": "assets/lecture-material/original-048.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:49": {
+    "src": "assets/lecture-material/original-049.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:50": {
+    "src": "assets/lecture-material/original-050.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:51": {
+    "src": "assets/lecture-material/original-051.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:52": {
+    "src": "assets/lecture-material/original-052.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:53": {
+    "src": "assets/lecture-material/original-053.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:54": {
+    "src": "assets/lecture-material/original-054.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:55": {
+    "src": "assets/lecture-material/original-055.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:56": {
+    "src": "assets/lecture-material/original-056.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:57": {
+    "src": "assets/lecture-material/original-057.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:58": {
+    "src": "assets/lecture-material/original-058.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:59": {
+    "src": "assets/lecture-material/original-059.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:60": {
+    "src": "assets/lecture-material/original-060.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:61": {
+    "src": "assets/lecture-material/original-061.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:62": {
+    "src": "assets/lecture-material/original-062.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:63": {
+    "src": "assets/lecture-material/original-063.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:3": {
+    "src": "assets/lecture-material/dc-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:4": {
+    "src": "assets/lecture-material/dc-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:5": {
+    "src": "assets/lecture-material/dc-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:6": {
+    "src": "assets/lecture-material/dc-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:7": {
+    "src": "assets/lecture-material/dc-007.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:8": {
+    "src": "assets/lecture-material/dc-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:9": {
+    "src": "assets/lecture-material/dc-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:10": {
+    "src": "assets/lecture-material/dc-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:11": {
+    "src": "assets/lecture-material/dc-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:12": {
+    "src": "assets/lecture-material/dc-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:13": {
+    "src": "assets/lecture-material/dc-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:14": {
+    "src": "assets/lecture-material/dc-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:15": {
+    "src": "assets/lecture-material/dc-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:16": {
+    "src": "assets/lecture-material/dc-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:17": {
+    "src": "assets/lecture-material/dc-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:18": {
+    "src": "assets/lecture-material/dc-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:19": {
+    "src": "assets/lecture-material/dc-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:20": {
+    "src": "assets/lecture-material/dc-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:21": {
+    "src": "assets/lecture-material/dc-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:22": {
+    "src": "assets/lecture-material/dc-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:23": {
+    "src": "assets/lecture-material/dc-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:24": {
+    "src": "assets/lecture-material/dc-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:25": {
+    "src": "assets/lecture-material/dc-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:26": {
+    "src": "assets/lecture-material/dc-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:27": {
+    "src": "assets/lecture-material/dc-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:28": {
+    "src": "assets/lecture-material/dc-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:29": {
+    "src": "assets/lecture-material/dc-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:30": {
+    "src": "assets/lecture-material/dc-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:31": {
+    "src": "assets/lecture-material/dc-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:32": {
+    "src": "assets/lecture-material/dc-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:33": {
+    "src": "assets/lecture-material/dc-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:34": {
+    "src": "assets/lecture-material/dc-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:35": {
+    "src": "assets/lecture-material/dc-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:36": {
+    "src": "assets/lecture-material/dc-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:37": {
+    "src": "assets/lecture-material/dc-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:38": {
+    "src": "assets/lecture-material/dc-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:39": {
+    "src": "assets/lecture-material/dc-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:40": {
+    "src": "assets/lecture-material/dc-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:41": {
+    "src": "assets/lecture-material/dc-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:42": {
+    "src": "assets/lecture-material/dc-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc:43": {
+    "src": "assets/lecture-material/dc-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:1": {
+    "src": "assets/lecture-material/ac-basics-001.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:2": {
+    "src": "assets/lecture-material/ac-basics-002.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:3": {
+    "src": "assets/lecture-material/ac-basics-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:4": {
+    "src": "assets/lecture-material/ac-basics-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:5": {
+    "src": "assets/lecture-material/ac-basics-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:6": {
+    "src": "assets/lecture-material/ac-basics-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:8": {
+    "src": "assets/lecture-material/ac-basics-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:9": {
+    "src": "assets/lecture-material/ac-basics-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:10": {
+    "src": "assets/lecture-material/ac-basics-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:11": {
+    "src": "assets/lecture-material/ac-basics-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:12": {
+    "src": "assets/lecture-material/ac-basics-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:13": {
+    "src": "assets/lecture-material/ac-basics-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:14": {
+    "src": "assets/lecture-material/ac-basics-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:15": {
+    "src": "assets/lecture-material/ac-basics-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:16": {
+    "src": "assets/lecture-material/ac-basics-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:17": {
+    "src": "assets/lecture-material/ac-basics-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:18": {
+    "src": "assets/lecture-material/ac-basics-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:19": {
+    "src": "assets/lecture-material/ac-basics-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:20": {
+    "src": "assets/lecture-material/ac-basics-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:21": {
+    "src": "assets/lecture-material/ac-basics-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:22": {
+    "src": "assets/lecture-material/ac-basics-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:23": {
+    "src": "assets/lecture-material/ac-basics-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:24": {
+    "src": "assets/lecture-material/ac-basics-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:25": {
+    "src": "assets/lecture-material/ac-basics-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:26": {
+    "src": "assets/lecture-material/ac-basics-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:27": {
+    "src": "assets/lecture-material/ac-basics-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:28": {
+    "src": "assets/lecture-material/ac-basics-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:29": {
+    "src": "assets/lecture-material/ac-basics-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:30": {
+    "src": "assets/lecture-material/ac-basics-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:31": {
+    "src": "assets/lecture-material/ac-basics-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:32": {
+    "src": "assets/lecture-material/ac-basics-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:33": {
+    "src": "assets/lecture-material/ac-basics-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:34": {
+    "src": "assets/lecture-material/ac-basics-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:35": {
+    "src": "assets/lecture-material/ac-basics-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:36": {
+    "src": "assets/lecture-material/ac-basics-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:37": {
+    "src": "assets/lecture-material/ac-basics-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:38": {
+    "src": "assets/lecture-material/ac-basics-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:39": {
+    "src": "assets/lecture-material/ac-basics-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:40": {
+    "src": "assets/lecture-material/ac-basics-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:41": {
+    "src": "assets/lecture-material/ac-basics-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:42": {
+    "src": "assets/lecture-material/ac-basics-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:43": {
+    "src": "assets/lecture-material/ac-basics-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:44": {
+    "src": "assets/lecture-material/ac-basics-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:45": {
+    "src": "assets/lecture-material/ac-basics-045.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:46": {
+    "src": "assets/lecture-material/ac-basics-046.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:47": {
+    "src": "assets/lecture-material/ac-basics-047.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:48": {
+    "src": "assets/lecture-material/ac-basics-048.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:49": {
+    "src": "assets/lecture-material/ac-basics-049.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:50": {
+    "src": "assets/lecture-material/ac-basics-050.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:51": {
+    "src": "assets/lecture-material/ac-basics-051.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:52": {
+    "src": "assets/lecture-material/ac-basics-052.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:53": {
+    "src": "assets/lecture-material/ac-basics-053.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:54": {
+    "src": "assets/lecture-material/ac-basics-054.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:55": {
+    "src": "assets/lecture-material/ac-basics-055.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:56": {
+    "src": "assets/lecture-material/ac-basics-056.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:57": {
+    "src": "assets/lecture-material/ac-basics-057.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:58": {
+    "src": "assets/lecture-material/ac-basics-058.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:59": {
+    "src": "assets/lecture-material/ac-basics-059.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:60": {
+    "src": "assets/lecture-material/ac-basics-060.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:61": {
+    "src": "assets/lecture-material/ac-basics-061.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:62": {
+    "src": "assets/lecture-material/ac-basics-062.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:63": {
+    "src": "assets/lecture-material/ac-basics-063.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:64": {
+    "src": "assets/lecture-material/ac-basics-064.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:65": {
+    "src": "assets/lecture-material/ac-basics-065.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:66": {
+    "src": "assets/lecture-material/ac-basics-066.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:67": {
+    "src": "assets/lecture-material/ac-basics-067.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:68": {
+    "src": "assets/lecture-material/ac-basics-068.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:69": {
+    "src": "assets/lecture-material/ac-basics-069.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:70": {
+    "src": "assets/lecture-material/ac-basics-070.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:71": {
+    "src": "assets/lecture-material/ac-basics-071.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:72": {
+    "src": "assets/lecture-material/ac-basics-072.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:73": {
+    "src": "assets/lecture-material/ac-basics-073.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:74": {
+    "src": "assets/lecture-material/ac-basics-074.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:75": {
+    "src": "assets/lecture-material/ac-basics-075.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:76": {
+    "src": "assets/lecture-material/ac-basics-076.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:77": {
+    "src": "assets/lecture-material/ac-basics-077.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-basics:78": {
+    "src": "assets/lecture-material/ac-basics-078.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:2": {
+    "src": "assets/lecture-material/ac2-002.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:3": {
+    "src": "assets/lecture-material/ac2-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:4": {
+    "src": "assets/lecture-material/ac2-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:5": {
+    "src": "assets/lecture-material/ac2-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:6": {
+    "src": "assets/lecture-material/ac2-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:7": {
+    "src": "assets/lecture-material/ac2-007.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:8": {
+    "src": "assets/lecture-material/ac2-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:9": {
+    "src": "assets/lecture-material/ac2-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:10": {
+    "src": "assets/lecture-material/ac2-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:11": {
+    "src": "assets/lecture-material/ac2-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:12": {
+    "src": "assets/lecture-material/ac2-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:13": {
+    "src": "assets/lecture-material/ac2-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:14": {
+    "src": "assets/lecture-material/ac2-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:15": {
+    "src": "assets/lecture-material/ac2-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:16": {
+    "src": "assets/lecture-material/ac2-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:17": {
+    "src": "assets/lecture-material/ac2-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:18": {
+    "src": "assets/lecture-material/ac2-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:19": {
+    "src": "assets/lecture-material/ac2-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:20": {
+    "src": "assets/lecture-material/ac2-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:21": {
+    "src": "assets/lecture-material/ac2-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:22": {
+    "src": "assets/lecture-material/ac2-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:23": {
+    "src": "assets/lecture-material/ac2-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:24": {
+    "src": "assets/lecture-material/ac2-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:25": {
+    "src": "assets/lecture-material/ac2-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:26": {
+    "src": "assets/lecture-material/ac2-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:27": {
+    "src": "assets/lecture-material/ac2-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:28": {
+    "src": "assets/lecture-material/ac2-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:29": {
+    "src": "assets/lecture-material/ac2-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:30": {
+    "src": "assets/lecture-material/ac2-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:31": {
+    "src": "assets/lecture-material/ac2-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:32": {
+    "src": "assets/lecture-material/ac2-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:33": {
+    "src": "assets/lecture-material/ac2-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:34": {
+    "src": "assets/lecture-material/ac2-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:35": {
+    "src": "assets/lecture-material/ac2-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:36": {
+    "src": "assets/lecture-material/ac2-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:37": {
+    "src": "assets/lecture-material/ac2-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:38": {
+    "src": "assets/lecture-material/ac2-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:39": {
+    "src": "assets/lecture-material/ac2-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:40": {
+    "src": "assets/lecture-material/ac2-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:41": {
+    "src": "assets/lecture-material/ac2-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:42": {
+    "src": "assets/lecture-material/ac2-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:43": {
+    "src": "assets/lecture-material/ac2-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:44": {
+    "src": "assets/lecture-material/ac2-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:45": {
+    "src": "assets/lecture-material/ac2-045.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:47": {
+    "src": "assets/lecture-material/ac2-047.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:48": {
+    "src": "assets/lecture-material/ac2-048.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:49": {
+    "src": "assets/lecture-material/ac2-049.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:50": {
+    "src": "assets/lecture-material/ac2-050.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:51": {
+    "src": "assets/lecture-material/ac2-051.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:52": {
+    "src": "assets/lecture-material/ac2-052.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:53": {
+    "src": "assets/lecture-material/ac2-053.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:54": {
+    "src": "assets/lecture-material/ac2-054.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:55": {
+    "src": "assets/lecture-material/ac2-055.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:56": {
+    "src": "assets/lecture-material/ac2-056.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:57": {
+    "src": "assets/lecture-material/ac2-057.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:58": {
+    "src": "assets/lecture-material/ac2-058.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:59": {
+    "src": "assets/lecture-material/ac2-059.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:60": {
+    "src": "assets/lecture-material/ac2-060.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:61": {
+    "src": "assets/lecture-material/ac2-061.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:62": {
+    "src": "assets/lecture-material/ac2-062.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:63": {
+    "src": "assets/lecture-material/ac2-063.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:64": {
+    "src": "assets/lecture-material/ac2-064.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:65": {
+    "src": "assets/lecture-material/ac2-065.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac2:66": {
+    "src": "assets/lecture-material/ac2-066.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:3": {
+    "src": "assets/lecture-material/resonance-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:4": {
+    "src": "assets/lecture-material/resonance-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:5": {
+    "src": "assets/lecture-material/resonance-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:6": {
+    "src": "assets/lecture-material/resonance-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:7": {
+    "src": "assets/lecture-material/resonance-007.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:8": {
+    "src": "assets/lecture-material/resonance-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:9": {
+    "src": "assets/lecture-material/resonance-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:10": {
+    "src": "assets/lecture-material/resonance-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:11": {
+    "src": "assets/lecture-material/resonance-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:12": {
+    "src": "assets/lecture-material/resonance-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:13": {
+    "src": "assets/lecture-material/resonance-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:14": {
+    "src": "assets/lecture-material/resonance-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:15": {
+    "src": "assets/lecture-material/resonance-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:16": {
+    "src": "assets/lecture-material/resonance-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:17": {
+    "src": "assets/lecture-material/resonance-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:18": {
+    "src": "assets/lecture-material/resonance-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:19": {
+    "src": "assets/lecture-material/resonance-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:20": {
+    "src": "assets/lecture-material/resonance-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:21": {
+    "src": "assets/lecture-material/resonance-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:22": {
+    "src": "assets/lecture-material/resonance-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:23": {
+    "src": "assets/lecture-material/resonance-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:24": {
+    "src": "assets/lecture-material/resonance-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:25": {
+    "src": "assets/lecture-material/resonance-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:26": {
+    "src": "assets/lecture-material/resonance-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:27": {
+    "src": "assets/lecture-material/resonance-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:28": {
+    "src": "assets/lecture-material/resonance-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:29": {
+    "src": "assets/lecture-material/resonance-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:30": {
+    "src": "assets/lecture-material/resonance-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:31": {
+    "src": "assets/lecture-material/resonance-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:32": {
+    "src": "assets/lecture-material/resonance-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:33": {
+    "src": "assets/lecture-material/resonance-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:34": {
+    "src": "assets/lecture-material/resonance-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:35": {
+    "src": "assets/lecture-material/resonance-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:36": {
+    "src": "assets/lecture-material/resonance-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:37": {
+    "src": "assets/lecture-material/resonance-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:38": {
+    "src": "assets/lecture-material/resonance-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:39": {
+    "src": "assets/lecture-material/resonance-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:40": {
+    "src": "assets/lecture-material/resonance-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:41": {
+    "src": "assets/lecture-material/resonance-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:42": {
+    "src": "assets/lecture-material/resonance-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:43": {
+    "src": "assets/lecture-material/resonance-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "resonance:44": {
+    "src": "assets/lecture-material/resonance-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab1:3": {
+    "src": "assets/lecture-material/lab1-003.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:4": {
+    "src": "assets/lecture-material/lab1-004.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:5": {
+    "src": "assets/lecture-material/lab1-005.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:6": {
+    "src": "assets/lecture-material/lab1-006.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:7": {
+    "src": "assets/lecture-material/lab1-007.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:8": {
+    "src": "assets/lecture-material/lab1-008.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:9": {
+    "src": "assets/lecture-material/lab1-009.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:10": {
+    "src": "assets/lecture-material/lab1-010.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:11": {
+    "src": "assets/lecture-material/lab1-011.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:12": {
+    "src": "assets/lecture-material/lab1-012.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:13": {
+    "src": "assets/lecture-material/lab1-013.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:14": {
+    "src": "assets/lecture-material/lab1-014.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:15": {
+    "src": "assets/lecture-material/lab1-015.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:16": {
+    "src": "assets/lecture-material/lab1-016.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:17": {
+    "src": "assets/lecture-material/lab1-017.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:18": {
+    "src": "assets/lecture-material/lab1-018.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:19": {
+    "src": "assets/lecture-material/lab1-019.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab1:20": {
+    "src": "assets/lecture-material/lab1-020.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "lab2:2": {
+    "src": "assets/lecture-material/lab2-002.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:3": {
+    "src": "assets/lecture-material/lab2-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:4": {
+    "src": "assets/lecture-material/lab2-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:5": {
+    "src": "assets/lecture-material/lab2-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:6": {
+    "src": "assets/lecture-material/lab2-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:7": {
+    "src": "assets/lecture-material/lab2-007.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:8": {
+    "src": "assets/lecture-material/lab2-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:9": {
+    "src": "assets/lecture-material/lab2-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:10": {
+    "src": "assets/lecture-material/lab2-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:11": {
+    "src": "assets/lecture-material/lab2-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:12": {
+    "src": "assets/lecture-material/lab2-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:13": {
+    "src": "assets/lecture-material/lab2-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:14": {
+    "src": "assets/lecture-material/lab2-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:15": {
+    "src": "assets/lecture-material/lab2-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "lab2:16": {
+    "src": "assets/lecture-material/lab2-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:10": {
+    "src": "assets/lecture-material/original-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:11": {
+    "src": "assets/lecture-material/original-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:12": {
+    "src": "assets/lecture-material/original-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:13": {
+    "src": "assets/lecture-material/original-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:14": {
+    "src": "assets/lecture-material/original-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:15": {
+    "src": "assets/lecture-material/original-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:16": {
+    "src": "assets/lecture-material/original-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:17": {
+    "src": "assets/lecture-material/original-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:18": {
+    "src": "assets/lecture-material/original-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:19": {
+    "src": "assets/lecture-material/original-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:20": {
+    "src": "assets/lecture-material/original-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:21": {
+    "src": "assets/lecture-material/original-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:22": {
+    "src": "assets/lecture-material/original-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:23": {
+    "src": "assets/lecture-material/original-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:24": {
+    "src": "assets/lecture-material/original-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:25": {
+    "src": "assets/lecture-material/original-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:26": {
+    "src": "assets/lecture-material/original-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:27": {
+    "src": "assets/lecture-material/original-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:28": {
+    "src": "assets/lecture-material/original-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:29": {
+    "src": "assets/lecture-material/original-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:30": {
+    "src": "assets/lecture-material/original-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:31": {
+    "src": "assets/lecture-material/original-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:32": {
+    "src": "assets/lecture-material/original-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:33": {
+    "src": "assets/lecture-material/original-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:34": {
+    "src": "assets/lecture-material/original-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:35": {
+    "src": "assets/lecture-material/original-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:36": {
+    "src": "assets/lecture-material/original-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:37": {
+    "src": "assets/lecture-material/original-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "original:64": {
+    "src": "assets/lecture-material/original-064.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:4": {
+    "src": "assets/lecture-material/dc-short-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:5": {
+    "src": "assets/lecture-material/dc-short-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:6": {
+    "src": "assets/lecture-material/dc-short-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:7": {
+    "src": "assets/lecture-material/dc-short-007.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:8": {
+    "src": "assets/lecture-material/dc-short-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:9": {
+    "src": "assets/lecture-material/dc-short-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:10": {
+    "src": "assets/lecture-material/dc-short-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:11": {
+    "src": "assets/lecture-material/dc-short-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:12": {
+    "src": "assets/lecture-material/dc-short-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "dc-short:13": {
+    "src": "assets/lecture-material/dc-short-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:1": {
+    "src": "assets/lecture-material/ac-pptx-001.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:2": {
+    "src": "assets/lecture-material/ac-pptx-002.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:3": {
+    "src": "assets/lecture-material/ac-pptx-003.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:4": {
+    "src": "assets/lecture-material/ac-pptx-004.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:5": {
+    "src": "assets/lecture-material/ac-pptx-005.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:6": {
+    "src": "assets/lecture-material/ac-pptx-006.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:8": {
+    "src": "assets/lecture-material/ac-pptx-008.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:9": {
+    "src": "assets/lecture-material/ac-pptx-009.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:10": {
+    "src": "assets/lecture-material/ac-pptx-010.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:11": {
+    "src": "assets/lecture-material/ac-pptx-011.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:12": {
+    "src": "assets/lecture-material/ac-pptx-012.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:13": {
+    "src": "assets/lecture-material/ac-pptx-013.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:14": {
+    "src": "assets/lecture-material/ac-pptx-014.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:15": {
+    "src": "assets/lecture-material/ac-pptx-015.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:16": {
+    "src": "assets/lecture-material/ac-pptx-016.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:17": {
+    "src": "assets/lecture-material/ac-pptx-017.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:18": {
+    "src": "assets/lecture-material/ac-pptx-018.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:19": {
+    "src": "assets/lecture-material/ac-pptx-019.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:20": {
+    "src": "assets/lecture-material/ac-pptx-020.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:21": {
+    "src": "assets/lecture-material/ac-pptx-021.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:22": {
+    "src": "assets/lecture-material/ac-pptx-022.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:23": {
+    "src": "assets/lecture-material/ac-pptx-023.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:24": {
+    "src": "assets/lecture-material/ac-pptx-024.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:25": {
+    "src": "assets/lecture-material/ac-pptx-025.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:26": {
+    "src": "assets/lecture-material/ac-pptx-026.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:27": {
+    "src": "assets/lecture-material/ac-pptx-027.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:28": {
+    "src": "assets/lecture-material/ac-pptx-028.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:29": {
+    "src": "assets/lecture-material/ac-pptx-029.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:30": {
+    "src": "assets/lecture-material/ac-pptx-030.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:31": {
+    "src": "assets/lecture-material/ac-pptx-031.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:32": {
+    "src": "assets/lecture-material/ac-pptx-032.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:33": {
+    "src": "assets/lecture-material/ac-pptx-033.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:34": {
+    "src": "assets/lecture-material/ac-pptx-034.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:35": {
+    "src": "assets/lecture-material/ac-pptx-035.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:36": {
+    "src": "assets/lecture-material/ac-pptx-036.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:37": {
+    "src": "assets/lecture-material/ac-pptx-037.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:38": {
+    "src": "assets/lecture-material/ac-pptx-038.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:39": {
+    "src": "assets/lecture-material/ac-pptx-039.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:40": {
+    "src": "assets/lecture-material/ac-pptx-040.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:41": {
+    "src": "assets/lecture-material/ac-pptx-041.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:42": {
+    "src": "assets/lecture-material/ac-pptx-042.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:43": {
+    "src": "assets/lecture-material/ac-pptx-043.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:44": {
+    "src": "assets/lecture-material/ac-pptx-044.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:45": {
+    "src": "assets/lecture-material/ac-pptx-045.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:46": {
+    "src": "assets/lecture-material/ac-pptx-046.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:47": {
+    "src": "assets/lecture-material/ac-pptx-047.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:48": {
+    "src": "assets/lecture-material/ac-pptx-048.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:49": {
+    "src": "assets/lecture-material/ac-pptx-049.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:50": {
+    "src": "assets/lecture-material/ac-pptx-050.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:51": {
+    "src": "assets/lecture-material/ac-pptx-051.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:52": {
+    "src": "assets/lecture-material/ac-pptx-052.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:53": {
+    "src": "assets/lecture-material/ac-pptx-053.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:54": {
+    "src": "assets/lecture-material/ac-pptx-054.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:55": {
+    "src": "assets/lecture-material/ac-pptx-055.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:56": {
+    "src": "assets/lecture-material/ac-pptx-056.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:57": {
+    "src": "assets/lecture-material/ac-pptx-057.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:58": {
+    "src": "assets/lecture-material/ac-pptx-058.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:59": {
+    "src": "assets/lecture-material/ac-pptx-059.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:60": {
+    "src": "assets/lecture-material/ac-pptx-060.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:61": {
+    "src": "assets/lecture-material/ac-pptx-061.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:62": {
+    "src": "assets/lecture-material/ac-pptx-062.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:63": {
+    "src": "assets/lecture-material/ac-pptx-063.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:64": {
+    "src": "assets/lecture-material/ac-pptx-064.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:65": {
+    "src": "assets/lecture-material/ac-pptx-065.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:66": {
+    "src": "assets/lecture-material/ac-pptx-066.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:67": {
+    "src": "assets/lecture-material/ac-pptx-067.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:68": {
+    "src": "assets/lecture-material/ac-pptx-068.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:69": {
+    "src": "assets/lecture-material/ac-pptx-069.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:70": {
+    "src": "assets/lecture-material/ac-pptx-070.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:71": {
+    "src": "assets/lecture-material/ac-pptx-071.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:72": {
+    "src": "assets/lecture-material/ac-pptx-072.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:73": {
+    "src": "assets/lecture-material/ac-pptx-073.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:74": {
+    "src": "assets/lecture-material/ac-pptx-074.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:75": {
+    "src": "assets/lecture-material/ac-pptx-075.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:76": {
+    "src": "assets/lecture-material/ac-pptx-076.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:77": {
+    "src": "assets/lecture-material/ac-pptx-077.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-pptx:78": {
+    "src": "assets/lecture-material/ac-pptx-078.webp",
+    "width": 1800,
+    "height": 1350
+  },
+  "ac-alt:2": {
+    "src": "assets/lecture-material/ac-alt-002.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:3": {
+    "src": "assets/lecture-material/ac-alt-003.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:4": {
+    "src": "assets/lecture-material/ac-alt-004.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:5": {
+    "src": "assets/lecture-material/ac-alt-005.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:6": {
+    "src": "assets/lecture-material/ac-alt-006.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:7": {
+    "src": "assets/lecture-material/ac-alt-007.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:8": {
+    "src": "assets/lecture-material/ac-alt-008.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:9": {
+    "src": "assets/lecture-material/ac-alt-009.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:10": {
+    "src": "assets/lecture-material/ac-alt-010.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:11": {
+    "src": "assets/lecture-material/ac-alt-011.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:12": {
+    "src": "assets/lecture-material/ac-alt-012.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:13": {
+    "src": "assets/lecture-material/ac-alt-013.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:14": {
+    "src": "assets/lecture-material/ac-alt-014.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:15": {
+    "src": "assets/lecture-material/ac-alt-015.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:16": {
+    "src": "assets/lecture-material/ac-alt-016.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:17": {
+    "src": "assets/lecture-material/ac-alt-017.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:18": {
+    "src": "assets/lecture-material/ac-alt-018.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:19": {
+    "src": "assets/lecture-material/ac-alt-019.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:20": {
+    "src": "assets/lecture-material/ac-alt-020.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:21": {
+    "src": "assets/lecture-material/ac-alt-021.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:22": {
+    "src": "assets/lecture-material/ac-alt-022.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:23": {
+    "src": "assets/lecture-material/ac-alt-023.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:24": {
+    "src": "assets/lecture-material/ac-alt-024.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:25": {
+    "src": "assets/lecture-material/ac-alt-025.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:26": {
+    "src": "assets/lecture-material/ac-alt-026.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:27": {
+    "src": "assets/lecture-material/ac-alt-027.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:28": {
+    "src": "assets/lecture-material/ac-alt-028.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:29": {
+    "src": "assets/lecture-material/ac-alt-029.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:30": {
+    "src": "assets/lecture-material/ac-alt-030.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:31": {
+    "src": "assets/lecture-material/ac-alt-031.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:32": {
+    "src": "assets/lecture-material/ac-alt-032.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:33": {
+    "src": "assets/lecture-material/ac-alt-033.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:34": {
+    "src": "assets/lecture-material/ac-alt-034.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:35": {
+    "src": "assets/lecture-material/ac-alt-035.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:36": {
+    "src": "assets/lecture-material/ac-alt-036.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:37": {
+    "src": "assets/lecture-material/ac-alt-037.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:38": {
+    "src": "assets/lecture-material/ac-alt-038.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:39": {
+    "src": "assets/lecture-material/ac-alt-039.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:40": {
+    "src": "assets/lecture-material/ac-alt-040.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:41": {
+    "src": "assets/lecture-material/ac-alt-041.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:42": {
+    "src": "assets/lecture-material/ac-alt-042.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:43": {
+    "src": "assets/lecture-material/ac-alt-043.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:44": {
+    "src": "assets/lecture-material/ac-alt-044.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:45": {
+    "src": "assets/lecture-material/ac-alt-045.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:46": {
+    "src": "assets/lecture-material/ac-alt-046.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:47": {
+    "src": "assets/lecture-material/ac-alt-047.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:48": {
+    "src": "assets/lecture-material/ac-alt-048.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:49": {
+    "src": "assets/lecture-material/ac-alt-049.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:50": {
+    "src": "assets/lecture-material/ac-alt-050.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:51": {
+    "src": "assets/lecture-material/ac-alt-051.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:52": {
+    "src": "assets/lecture-material/ac-alt-052.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:53": {
+    "src": "assets/lecture-material/ac-alt-053.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:54": {
+    "src": "assets/lecture-material/ac-alt-054.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:55": {
+    "src": "assets/lecture-material/ac-alt-055.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:56": {
+    "src": "assets/lecture-material/ac-alt-056.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:57": {
+    "src": "assets/lecture-material/ac-alt-057.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:58": {
+    "src": "assets/lecture-material/ac-alt-058.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:59": {
+    "src": "assets/lecture-material/ac-alt-059.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:60": {
+    "src": "assets/lecture-material/ac-alt-060.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:61": {
+    "src": "assets/lecture-material/ac-alt-061.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:62": {
+    "src": "assets/lecture-material/ac-alt-062.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:63": {
+    "src": "assets/lecture-material/ac-alt-063.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:64": {
+    "src": "assets/lecture-material/ac-alt-064.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:65": {
+    "src": "assets/lecture-material/ac-alt-065.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:66": {
+    "src": "assets/lecture-material/ac-alt-066.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:67": {
+    "src": "assets/lecture-material/ac-alt-067.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:68": {
+    "src": "assets/lecture-material/ac-alt-068.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:69": {
+    "src": "assets/lecture-material/ac-alt-069.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:70": {
+    "src": "assets/lecture-material/ac-alt-070.webp",
+    "width": 1800,
+    "height": 1013
+  },
+  "ac-alt:71": {
+    "src": "assets/lecture-material/ac-alt-071.webp",
+    "width": 1800,
+    "height": 1013
+  }
+}

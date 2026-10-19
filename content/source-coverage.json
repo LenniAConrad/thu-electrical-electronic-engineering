@@ -1,0 +1,5418 @@
+{
+  "basic": {
+    "file": "L01_Circuit Basic Theory-new.pptx",
+    "sha256": "5a6722ead0dea0f88a6dd3ad1a1b99a95847767a3ea7184f0b3b4e28f5c09026",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 3,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 4,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 5,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 6,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 7,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 8,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 9,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "models"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "models"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "resistance"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "resistance"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "resistance"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "sources"
+          }
+        ]
+      },
+      {
+        "page": 21,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "resistance"
+          }
+        ]
+      },
+      {
+        "page": 22,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 23,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 24,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 25,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 26,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 27,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "references"
+          }
+        ]
+      },
+      {
+        "page": 28,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "dc-power"
+          }
+        ]
+      },
+      {
+        "page": 29,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "dc-power"
+          }
+        ]
+      },
+      {
+        "page": 30,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-basics",
+            "topic": "dc-power"
+          }
+        ]
+      },
+      {
+        "page": 31,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 32,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 33,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 34,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-current"
+          }
+        ]
+      },
+      {
+        "page": 35,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-current"
+          }
+        ]
+      },
+      {
+        "page": 36,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-current"
+          }
+        ]
+      },
+      {
+        "page": 37,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-voltage"
+          }
+        ]
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-voltage"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "kirchhoff-voltage"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 46,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 47,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 48,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 49,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 50,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "source-transformation"
+          }
+        ]
+      },
+      {
+        "page": 51,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 52,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 53,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 54,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 55,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 56,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 57,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      }
+    ]
+  },
+  "original": {
+    "file": "L01_Circuit Basic Theory.pptx",
+    "sha256": "b9d08b4bfbcc8421ed77ad73b8c95b8819fe25c098021fb4aead7ead8bfa947e",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 3,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 4,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 5,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 6,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 7,
+        "status": "context-only",
+        "reason": "Course administration, contact details, references and assessment rules; omitted from the content-only reader requested by the user."
+      },
+      {
+        "page": 8,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 9,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 10,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 10
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 11,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 11
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 12,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 12
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 13,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 13
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 14,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 14
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 15,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 15
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 16,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 16
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 17,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 17
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 18,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 18
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 19,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 19
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 20,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 20
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 21,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 21
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 22,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 22
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 23,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 23
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 24,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 24
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 25,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 25
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 26,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 26
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 27,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 27
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 28,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 28
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 29,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 29
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 30,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 30
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 31,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 31
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 32,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 32
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 33,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 33
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 34,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 34
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 35,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 36
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 36,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 38
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 37,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 39
+        },
+        "reason": "Same circuit material retained in the updated L01 deck; older unique analysis material is included separately.",
+        "retained": true
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "topology"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "branch-analysis"
+          }
+        ]
+      },
+      {
+        "page": 46,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 47,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 48,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 49,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 50,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 51,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 52,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 53,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 54,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "circuit-laws",
+            "topic": "loop-mesh"
+          }
+        ]
+      },
+      {
+        "page": 55,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 56,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 57,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 58,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 59,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 60,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 61,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "supernodes"
+          }
+        ]
+      },
+      {
+        "page": 62,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "supernodes"
+          }
+        ]
+      },
+      {
+        "page": 63,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "supernodes"
+          }
+        ]
+      },
+      {
+        "page": 64,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "basic",
+          "page": 56
+        },
+        "reason": "Repeated closing content summary.",
+        "retained": true
+      },
+      {
+        "page": 65,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      }
+    ]
+  },
+  "dc": {
+    "file": "L02+L03-E&ETech.pptx",
+    "sha256": "af1028f9b8b91286e8dd7ea825717a2ee983cff4c704a5a1a980d602e66ecf44",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "potential"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "potential"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "potential"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "nodal"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "superposition"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 21,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 22,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 23,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 24,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 25,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 26,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 27,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 28,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 29,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 30,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 31,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "maximum-power"
+          }
+        ]
+      },
+      {
+        "page": 32,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "thevenin-norton"
+          }
+        ]
+      },
+      {
+        "page": 33,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "star-delta"
+          }
+        ]
+      },
+      {
+        "page": 34,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "star-delta"
+          }
+        ]
+      },
+      {
+        "page": 35,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "star-delta"
+          }
+        ]
+      },
+      {
+        "page": 36,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "star-delta"
+          }
+        ]
+      },
+      {
+        "page": 37,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "homogeneity"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "homogeneity"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "homogeneity"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "homogeneity"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "homogeneity"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      }
+    ]
+  },
+  "dc-short": {
+    "file": "L02-E&ETech.pptx",
+    "sha256": "0e795699304f14794e8166eeb81b87eb0f95f93ed6068bcb9b2498c99c3d0b9e",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 3,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 4,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 3
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 5,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 4
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 6,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 5
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 7,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 6
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 8,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 7
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 9,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 8
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 10,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 9
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 11,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 10
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 12,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 11
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 13,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "dc",
+          "page": 12
+        },
+        "reason": "Corresponding node-potential material in the expanded L02+L03 deck.",
+        "retained": true
+      },
+      {
+        "page": 14,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      }
+    ]
+  },
+  "ac-basics": {
+    "file": "Week03 Fundamentals of sinusoidal AC circuits.pdf",
+    "sha256": "5ba59f09ed21cb4f89a1da27ce4da6e5e033668a8d2da7888203034b69a49759",
+    "pages": [
+      {
+        "page": 1,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 2,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "equivalent-resistance"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "dc-methods",
+            "topic": "star-delta"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "sinusoids"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 21,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 22,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 23,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 24,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 25,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 26,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 27,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 28,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 29,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 30,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 31,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 32,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "phasor-representation"
+          }
+        ]
+      },
+      {
+        "page": 33,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 34,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 35,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 36,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 37,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "complex-arithmetic"
+          }
+        ]
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 46,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 47,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 48,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 49,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "resistor-ac"
+          }
+        ]
+      },
+      {
+        "page": 50,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 51,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 52,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 53,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 54,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 55,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 56,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 57,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 58,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 59,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 60,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "inductor-ac"
+          }
+        ]
+      },
+      {
+        "page": 61,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 62,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 63,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 64,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 65,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 66,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 67,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 68,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 69,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 70,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 71,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 72,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "capacitor-ac"
+          }
+        ]
+      },
+      {
+        "page": 73,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      },
+      {
+        "page": 74,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      },
+      {
+        "page": 75,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      },
+      {
+        "page": 76,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      },
+      {
+        "page": 77,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      },
+      {
+        "page": 78,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "sinusoidal-ac",
+            "topic": "rlc-summary"
+          }
+        ]
+      }
+    ]
+  },
+  "ac-pptx": {
+    "file": "Week03 Fundamentals of sinusoidal AC circuits.pptx",
+    "sha256": "86bf2cb6a0c9eb1a32baa36f5f13b659393a48d8b51e0347af47e4824daf221d",
+    "pages": [
+      {
+        "page": 1,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 1
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 2,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 2
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 3,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 3
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 4,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 4
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 5,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 5
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 6,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 6
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 7,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 8,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 8
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 9,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 9
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 10,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 10
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 11,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 11
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 12,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 12
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 13,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 13
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 14,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 14
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 15,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 15
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 16,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 16
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 17,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 17
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 18,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 18
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 19,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 19
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 20,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 20
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 21,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 21
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 22,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 22
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 23,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 23
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 24,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 24
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 25,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 25
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 26,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 26
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 27,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 27
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 28,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 28
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 29,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 29
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 30,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 30
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 31,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 31
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 32,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 32
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 33,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 33
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 34,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 34
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 35,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 35
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 36,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 36
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 37,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 37
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 38,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 38
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 39,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 39
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 40,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 40
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 41,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 41
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 42,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 42
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 43,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 43
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 44,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 44
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 45,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 45
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 46,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 46
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 47,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 47
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 48,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 48
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 49,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 49
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 50,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 50
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 51,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 51
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 52,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 52
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 53,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 53
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 54,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 54
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 55,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 55
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 56,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 56
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 57,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 57
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 58,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 58
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 59,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 59
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 60,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 60
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 61,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 61
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 62,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 62
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 63,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 63
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 64,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 64
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 65,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 65
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 66,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 66
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 67,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 67
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 68,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 68
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 69,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 69
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 70,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 70
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 71,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 71
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 72,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 72
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 73,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 73
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 74,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 74
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 75,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 75
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 76,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 76
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 77,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 77
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      },
+      {
+        "page": 78,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 78
+        },
+        "reason": "PowerPoint counterpart of the supplied 78-page PDF.",
+        "retained": true
+      }
+    ]
+  },
+  "ac-alt": {
+    "file": "L04-L05Fundamentals of sinusoidal AC circuits.pptx",
+    "sha256": "2a28575ecc2d42ce985bf12ce7a0f392a1ac2b4b81305efa4740f0896e747553",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 8
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 3,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 9
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 4,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 10
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 5,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 11
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 6,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 12
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 7,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 13
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 8,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 14
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 9,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 15
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 10,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 16
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 11,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 17
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 12,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 18
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 13,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 19
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 14,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 20
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 15,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 21
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 16,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 22
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 17,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 23
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 18,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 24
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 19,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 25
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 20,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 26
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 21,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 27
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 22,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 28
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 23,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 29
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 24,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 30
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 25,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 31
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 26,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 32
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 27,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 33
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 28,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 34
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 29,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 35
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 30,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 36
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 31,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 37
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 32,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 38
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 33,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 39
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 34,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 41
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 35,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 42
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 36,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 43
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 37,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 44
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 38,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 45
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 39,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 46
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 40,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 47
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 41,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 48
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 42,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 49
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 43,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 50
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 44,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 51
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 45,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 52
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 46,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 53
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 47,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 54
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 48,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 55
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 49,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 56
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 50,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 57
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 51,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 58
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 52,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 59
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 53,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 60
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 54,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 61
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 55,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 62
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 56,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 63
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 57,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 64
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 58,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 65
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 59,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 66
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 60,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 67
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 61,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 68
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 62,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 69
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 63,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 70
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 64,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 71
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 65,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 72
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 66,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 73
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 67,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 74
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 68,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 75
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 69,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 76
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 70,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 77
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      },
+      {
+        "page": 71,
+        "status": "parallel-version",
+        "equivalent": {
+          "deck": "ac-basics",
+          "page": 78
+        },
+        "reason": "Corresponding AC topic retained from the expanded Week03 deck; its additional DC-equivalence review is also included.",
+        "retained": true
+      }
+    ]
+  },
+  "ac2": {
+    "file": "Lesson06 AC-2.pdf",
+    "sha256": "b5ac1b26ed1d1ae93c2dde8ae65135352b8961b21a13b9e7d8ef3e27f857819b",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rl-series"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "rlc-series"
+          }
+        ]
+      },
+      {
+        "page": 21,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 22,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 23,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 24,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 25,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 26,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "impedance-networks"
+          }
+        ]
+      },
+      {
+        "page": 27,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 28,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 29,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 30,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 31,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 32,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 33,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-analysis"
+          }
+        ]
+      },
+      {
+        "page": 34,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-power"
+          }
+        ]
+      },
+      {
+        "page": 35,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "ac-power"
+          }
+        ]
+      },
+      {
+        "page": 36,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "power-factor"
+          }
+        ]
+      },
+      {
+        "page": 37,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "power-factor"
+          }
+        ]
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "power-factor"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "ac-networks",
+            "topic": "compensation"
+          }
+        ]
+      },
+      {
+        "page": 46,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 47,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "periodic-waveforms"
+          }
+        ]
+      },
+      {
+        "page": 48,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "periodic-waveforms"
+          }
+        ]
+      },
+      {
+        "page": 49,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "periodic-waveforms"
+          }
+        ]
+      },
+      {
+        "page": 50,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "periodic-waveforms"
+          }
+        ]
+      },
+      {
+        "page": 51,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "periodic-waveforms"
+          }
+        ]
+      },
+      {
+        "page": 52,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "fourier"
+          }
+        ]
+      },
+      {
+        "page": 53,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "fourier"
+          }
+        ]
+      },
+      {
+        "page": 54,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "fourier"
+          }
+        ]
+      },
+      {
+        "page": 55,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "fourier"
+          }
+        ]
+      },
+      {
+        "page": 56,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "fourier"
+          }
+        ]
+      },
+      {
+        "page": 57,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-power"
+          }
+        ]
+      },
+      {
+        "page": 58,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-power"
+          }
+        ]
+      },
+      {
+        "page": 59,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-power"
+          }
+        ]
+      },
+      {
+        "page": 60,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-power"
+          }
+        ]
+      },
+      {
+        "page": 61,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-example"
+          }
+        ]
+      },
+      {
+        "page": 62,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-example"
+          }
+        ]
+      },
+      {
+        "page": 63,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-example"
+          }
+        ]
+      },
+      {
+        "page": 64,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-example"
+          }
+        ]
+      },
+      {
+        "page": 65,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-rms-example"
+          }
+        ]
+      },
+      {
+        "page": 66,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "periodic-signals",
+            "topic": "harmonic-rms-example"
+          }
+        ]
+      }
+    ]
+  },
+  "resonance": {
+    "file": "AC.pptx",
+    "sha256": "4b7c7814b227f4666a6b341afff3b5d3d9594fb755a6f736f7fae12aadfd9ba9",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "series-resonance"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "quality-bandwidth"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "quality-bandwidth"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "quality-bandwidth"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "quality-bandwidth"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "resonance-worked"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "resonance-worked"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "tuning"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "tuning"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "tuning"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "tuning"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "quality-bandwidth"
+          }
+        ]
+      },
+      {
+        "page": 21,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 22,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 23,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 24,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 25,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 26,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "parallel-resonance"
+          }
+        ]
+      },
+      {
+        "page": 27,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "mixed-resonance"
+          }
+        ]
+      },
+      {
+        "page": 28,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "transfer-functions"
+          }
+        ]
+      },
+      {
+        "page": 29,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "transfer-functions"
+          }
+        ]
+      },
+      {
+        "page": 30,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "low-high-pass"
+          }
+        ]
+      },
+      {
+        "page": 31,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "low-high-pass"
+          }
+        ]
+      },
+      {
+        "page": 32,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "low-high-pass"
+          }
+        ]
+      },
+      {
+        "page": 33,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "low-high-pass"
+          }
+        ]
+      },
+      {
+        "page": 34,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "low-high-pass"
+          }
+        ]
+      },
+      {
+        "page": 35,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "filter-bode"
+          }
+        ]
+      },
+      {
+        "page": 36,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "filter-bode"
+          }
+        ]
+      },
+      {
+        "page": 37,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "filter-bode"
+          }
+        ]
+      },
+      {
+        "page": 38,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "filter-bode"
+          }
+        ]
+      },
+      {
+        "page": 39,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 40,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 41,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 42,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 43,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "resonance-filters",
+            "topic": "frequency-examples"
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      }
+    ]
+  },
+  "lab1": {
+    "file": "Experiment 1 - Basic Electrical Instruments.pptx-1012(1).pptx",
+    "sha256": "0cc7bfe25fd8730e818e9551cfa1b7475cb9789bbc44664d9474b0332c6b31b8",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "context-only",
+        "reason": "Grading, attendance and late-submission rules; omitted from the content-only reader. Technical preparation and reporting requirements are included."
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-report"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-controls"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "board"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "measure-dc"
+          }
+        ]
+      },
+      {
+        "page": 17,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "measure-thevenin"
+          }
+        ]
+      },
+      {
+        "page": 18,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "measure-dc"
+          }
+        ]
+      },
+      {
+        "page": 19,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "measure-phase"
+          }
+        ]
+      },
+      {
+        "page": 20,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-instruments",
+            "topic": "instrument-report"
+          }
+        ]
+      }
+    ]
+  },
+  "lab2": {
+    "file": "Experiment 2 - Frequency Response of a Series RLC Circuit.pptx",
+    "sha256": "f036fb6b671e973368b812ada94612cbd83aef84f0410301cee42fe01c467816",
+    "pages": [
+      {
+        "page": 1,
+        "status": "context-only",
+        "reason": "Title, outline, closing/thank-you page; substantive material appears in the mapped topic sections."
+      },
+      {
+        "page": 2,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 3,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 4,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 5,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 6,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 7,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 8,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 9,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-instruments"
+          }
+        ]
+      },
+      {
+        "page": 10,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-setup"
+          }
+        ]
+      },
+      {
+        "page": 11,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-setup"
+          }
+        ]
+      },
+      {
+        "page": 12,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-setup"
+          }
+        ]
+      },
+      {
+        "page": 13,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "frequency-sweep"
+          }
+        ]
+      },
+      {
+        "page": 14,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "change-components"
+          }
+        ]
+      },
+      {
+        "page": 15,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-report"
+          }
+        ]
+      },
+      {
+        "page": 16,
+        "status": "included",
+        "sections": [
+          {
+            "lecture": "lab-resonance",
+            "topic": "resonance-report"
+          }
+        ]
+      }
+    ]
+  }
+}

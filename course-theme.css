@@ -21,3 +21,39 @@
 @media(max-width:760px){.experiment-picture{min-height:190px}.experiment-picture text{font-size:22px}.learning-preview>svg text{font-size:22px}.topic-meta{flex-wrap:wrap}.topic-meta a{min-height:36px;display:inline-flex;align-items:center}.path-drawing text{display:none}.path-label{align-items:start;flex-wrap:wrap}}
 
 body{font-size:1rem}button:hover{background:#f3eef9;border-color:#b9a4d1}.primary:hover{background:#54317f;color:white}
+/* Stable, readable experiments: optional explanations never have a fixed height. */
+.lesson-nav a{grid-template-columns:28px minmax(0,1fr)}
+.experiment-figure{overflow-x:auto;border-radius:8px;background:#f6faf9}
+.experiment-picture{display:block;min-width:480px;min-height:0;aspect-ratio:7/4;overflow:hidden}
+.experiment-picture text,.learning-preview>svg text{font:18px var(--sans);fill:var(--text)}
+.experiment-controls output{font-variant-numeric:tabular-nums;min-width:7.5em;text-align:right;white-space:nowrap}
+.experiment-playback{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.experiment-playback button{min-width:7.5em;font-size:.85rem}
+.playback-status{min-height:3.6em;font-size:.8rem!important}
+.experiment-result{min-height:6em;font-variant-numeric:tabular-nums}
+.inline-experiment .experiment-note{font-size:.85rem;line-height:1.8;margin-top:12px}
+.check .feedback{min-height:5.4em}
+.worked-steps{display:grid;grid-template-columns:minmax(0,1fr)}
+.worked-steps>[data-worked-step]{grid-area:1/1;min-width:0}
+.worked-steps>[data-worked-step][hidden]{display:block!important;visibility:hidden}
+.source-warning{border-left:4px solid #b33736;padding:16px 20px;background:#fff1f0;color:#87302c}
+.source-warning>strong{font-size:.85rem;letter-spacing:.04em}.source-warning p{margin:8px 0 0}
+@media(max-width:760px){.experiment-controls{grid-template-columns:1fr}.inline-experiment{padding:18px}.course-footer{flex-wrap:wrap}}
+@media print{.experiment-playback,.playback-status,.topic-meta,.check button,.reader-heading,.reader-overview,.study-shell>.back-link{display:none!important}.experiment-figure{overflow:visible}.experiment-picture{min-width:0}.worked-steps{display:block}.worked-steps>[data-worked-step][hidden]{visibility:visible!important}.experiment-result,.check .feedback{min-height:0!important}}
+/* Full lecture reader. */
+.course-loading{display:grid;place-items:center;min-height:80vh;margin:0;text-align:center}
+.lecture-shell{max-width:1088px}.lecture-shell .reader-heading,.lecture-search,#lecture-catalog,.lecture-tools{max-width:800px;margin-inline:auto}
+.lecture-catalog-entry{padding:24px 0;border-bottom:1px solid var(--line)}.lecture-catalog-entry h2{font-size:1.5rem;margin:6px 0 10px}.lecture-catalog-entry p{color:var(--muted)}
+.lecture-search{margin-top:30px}.lecture-search label{display:block;font-weight:600;font-size:.9rem;margin-bottom:8px}.lecture-search input{width:100%}.lecture-search [role=status]{min-height:1.8em;font-size:.85rem}
+.lecture-outline{display:grid;margin:15px 0}.lecture-outline a{display:flex;gap:16px;align-items:center;min-height:46px;border-bottom:1px solid #edf0f4;padding:10px}.lecture-outline a[aria-current]{background:#f3eef9}.lecture-outline span{color:var(--muted);font-size:.8rem;min-width:1.4em}
+.lecture-tools{display:flex;align-items:center;gap:18px;margin-block:22px}.lecture-tools button{font-size:.85rem}.lecture-tools [role=status]{font-size:.8rem;color:var(--muted)}
+.lecture-equation{overflow-x:auto;max-width:100%;margin:22px 0;padding:4px 0}.lecture-equation .katex-display{margin:.6em 0}.lecture-topic>p{margin:20px 0}.lecture-topic>h2{scroll-margin-top:100px}
+.lecture-material{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:30px 0;padding:18px 0}.lecture-material>summary{cursor:pointer;font-weight:600;line-height:1.7;color:#47556a}.lecture-material>summary span{font-weight:400;color:var(--muted)}
+.lecture-figure{margin:28px 0}.lecture-figure img{display:block;width:100%;height:auto;border:1px solid var(--line);background:#f8fafb}.lecture-figure figcaption{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:.75rem;color:var(--muted)}.lecture-figure figcaption a{min-height:36px;display:inline-flex;align-items:center}
+.lecture-choices{display:grid;gap:10px}.lecture-choices button{text-align:left}.lecture-choices button[aria-pressed=true]{border-color:var(--accent);background:#f3eef9}.lecture-check details{margin-top:20px}.lecture-check summary{cursor:pointer}
+.print-preparing{padding:20px;background:#f3eef9}.printing-lecture>.lecture-topic{margin-top:32px}
+@media print{.lecture-tools,.lecture-shell>.course-header,.lecture-search,.print-preparing,.lecture-figure figcaption a{display:none!important}.lecture-material{border:0}.lecture-material>summary{display:none}.lecture-figure{break-inside:avoid}.lecture-figure img{max-height:220mm;object-fit:contain}.lecture-topic>h2{break-after:avoid}.lecture-topic .lesson-footer{display:none}.printing-lecture>h1{break-before:page}.lecture-topic .lecture-check details{display:block}}
+
+.course-loading{position:fixed;inset:0;min-height:100dvh;background:white;z-index:50}
+
+.learning-preview>svg text{font-size:22px}

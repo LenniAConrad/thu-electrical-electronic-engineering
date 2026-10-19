@@ -14,6 +14,9 @@ with sync_playwright() as p:
  def movement(sample,key,direction=1):return ((sample[0][key]-sample[1][key])*direction)%40
  assert page.locator('[data-flow-part=V1]').get_attribute('data-direction')=='-1'
  assert page.locator('[data-flow-part=R1]').get_attribute('data-direction')=='1'
+ assert page.locator('#flow-state').inner_text()=='Paused'
+ assert sample()[0]==sample()[1]
+ page.locator('#flow-play').click()
  motion=sample();assert movement(motion,'R1')>1;assert movement(motion,'V1',-1)>1
  # Same current moves at the same speed in all series branches, including the return wire.
  assert abs(movement(motion,'R1')-movement(motion,'W1'))<.001
@@ -50,6 +53,6 @@ with sync_playwright() as p:
  # Reduced motion starts paused, while explicit Play still works.
  reduced=b.new_page(reduced_motion='reduce');reduced.goto(BASE+'circuit-lab.html');reduced.wait_for_selector('[data-flow-part]',state='attached');assert reduced.locator('#flow-state').inner_text()=='Paused';assert reduced.locator('#flow-play').inner_text()=='Play';reduced.locator('#flow-play').click();assert reduced.locator('#flow-state').inner_text()=='Conventional current';reduced.close()
  if BASE.startswith('http://localhost'):
-  page.goto(Path('circuit-lab.html').resolve().as_uri());page.wait_for_selector('[data-flow-part]',state='attached');page.context.set_offline(True);page.reload();page.wait_for_selector('[data-flow-part]',state='attached');assert movement(sample(),'R1')>0
+  page.goto(Path('circuit-lab.html').resolve().as_uri());page.wait_for_selector('[data-flow-part]',state='attached');page.context.set_offline(True);page.reload();page.wait_for_selector('[data-flow-part]',state='attached');assert page.locator('#flow-state').inner_text()=='Paused';page.locator('#flow-play').click();assert movement(sample(),'R1')>0
  assert not errors,errors;b.close()
 print('Current animation passed: motion/sign/speed ratios, pause, visibility, junction splits, live edits, zero/open/invalid circuits, mobile, reduced motion and offline.')

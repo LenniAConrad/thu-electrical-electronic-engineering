@@ -105,7 +105,7 @@
     $('title').textContent=current.title;document.title=current.title+' · THU EEE';
     const items=Questions.filter(q=>q.set===current.set);$('position').textContent=`${items.indexOf(items.find(q=>q.id===valid))+1} / ${items.length}`;
     $('topic').textContent=current.topic;$('statement').innerHTML=`<p>${current.statement}</p>`;
-    $('source-note').innerHTML=current.note?`<div class="notice">${current.note}</div>`:'';
+    $('source-note').innerHTML=current.note?`<div class="source-warning"><strong>WARNING</strong><p>${current.note}</p></div>`:'';
     $('new-numbers').hidden=mode!=='random';showFormulas(false);$('formula-reference').open=false;
     $('diagram-caption').textContent=current.caption||'';
     $('previous').disabled=Questions.findIndex(q=>q.id===valid)===0;
